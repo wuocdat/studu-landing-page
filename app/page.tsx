@@ -1,13 +1,15 @@
+import CTASection from '@/components/CTASection';
+import { Footer } from '@/components/Footer';
 import { HeaderMenu } from '@/components/Header';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Welcome } from '../components/Welcome/Welcome';
+import HeroSection from '@/components/HeroSection';
 
 export default function HomePage() {
   return (
     <>
       <HeaderMenu />
-      <Welcome />
-      <ColorSchemeToggle />
+      <HeroSection />
+      <CTASection />
+      <Footer />
     </>
   );
 }

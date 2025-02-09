@@ -3,7 +3,7 @@
 import { Button, colorsTuple, createTheme } from '@mantine/core';
 
 export const theme = createTheme({
-  fontFamily: 'Nunito , sans-serif',
+  fontFamily: 'Nunito, sans-serif',
   colors: {
     mustard_yellow: colorsTuple('#FAB900'),
   },
