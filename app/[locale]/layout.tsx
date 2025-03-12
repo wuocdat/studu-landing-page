@@ -1,0 +1,68 @@
+import '@mantine/core/styles.css';
+import '@/styles/Nunito.css';
+
+import React from 'react';
+import { notFound } from 'next/navigation';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages, getTranslations } from 'next-intl/server';
+import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
+import { Footer } from '@/components/Footer';
+import Header from '@/components/layout/header';
+import { routing } from '@/i18n/routing';
+import { theme } from '../../theme/theme';
+
+// export const metadata = {
+//   title: 'Stutu - Kết nối để toả sáng',
+//   description: 'I am using Mantine with Next.js!',
+// };
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'metadata' });
+
+  return {
+    title: t('title'),
+  };
+}
+
+export default async function RootLayout({
+  children,
+  params,
+}: {
+  children: any;
+  params: Promise<{ locale: string }>;
+}) {
+  // Ensure that the incoming `locale` is valid
+  const { locale } = await params;
+  if (!routing.locales.includes(locale as any)) {
+    notFound();
+  }
+
+  // Providing all messages to the client
+  // side is the easiest way to get started
+  const messages = await getMessages();
+
+  return (
+    <html lang={locale} {...mantineHtmlProps}>
+      <head>
+        <ColorSchemeScript />
+        <link rel="shortcut icon" href="/favicon.svg" />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
+        />
+      </head>
+      <body>
+        <NextIntlClientProvider messages={messages}>
+          <MantineProvider theme={theme}>
+            <>
+              <Header />
+              {children}
+              <Footer />
+            </>
+          </MantineProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}

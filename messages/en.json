@@ -1,0 +1,12 @@
+{
+  "header": {
+    "findTutor": "Find a tutor",
+    "becomeTutor": "Become a tutor",
+    "guide": "Guide",
+    "login": "Login"
+  },
+  "metadata": {
+    "title": "Tutoring Platform",
+    "description": "Find a tutor for your needs or become a tutor and help others"
+  }
+}

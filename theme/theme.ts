@@ -6,19 +6,21 @@ export const theme = createTheme({
   fontFamily: 'Nunito, sans-serif',
   colors: {
     mustard_yellow: colorsTuple('#FAB900'),
+    hot_pink: colorsTuple('#E63B7A'),
   },
-  primaryColor: 'mustard_yellow',
+  primaryColor: 'hot_pink',
   autoContrast: true,
   components: {
     Button: Button.extend({
       defaultProps: {
-        radius: 'lg',
-        fw: 'normal',
-        h: 'auto',
-        py: 'sm',
+        h: '56px',
+        py: '0px',
+        px: '16px',
         styles: {
           root: {
-            lineHeight: '150%',
+            // lineHeight: '150%',
+            // fontSize: '20px',
+            borderRadius: '16px',
           },
         },
       },
