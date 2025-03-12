@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
 import { Box, Button, Group } from '@mantine/core';
 import StutuLogo from '@/components/icons/StutuLogo';
-import TextButton from '@/components/TextButton';
-import LanguageMenu from './subComponents/Language';
+import NavAnchor from '@/components/NavAnchor';
+import LanguageMenu from './subComponents/LanguageMenu';
 
 export default function Header() {
   const t = useTranslations('header');
@@ -12,16 +12,13 @@ export default function Header() {
       <Group justify="space-between" align="center" style={{ height: '100%' }}>
         <Group gap="xl">
           <StutuLogo />
-          <TextButton text={t('findTutor')} />
-          <TextButton text="Trở thành gia sư" />
-          <TextButton text="Hướng dẫn" withUnderline={false} />
+          <NavAnchor link="/" text={t('findTutor')} />
+          <NavAnchor link="/" text={t('becomeTutor')} />
+          <NavAnchor link="/" text={t('guide')} withUnderline={false} />
         </Group>
         <Group gap="md">
           <LanguageMenu />
-
-          <Button variant="filled" radius="md" size="xl" style={{ height: '36px' }}>
-            Đăng nhập
-          </Button>
+          <Button size="xl">{t('login')}</Button>
         </Group>
       </Group>
     </Box>

@@ -10,6 +10,7 @@ export const theme = createTheme({
   },
   primaryColor: 'hot_pink',
   autoContrast: true,
+  defaultRadius: '16px',
   components: {
     Button: Button.extend({
       defaultProps: {
@@ -20,7 +21,7 @@ export const theme = createTheme({
           root: {
             // lineHeight: '150%',
             // fontSize: '20px',
-            borderRadius: '16px',
+            // borderRadius: '16px',
           },
         },
       },
