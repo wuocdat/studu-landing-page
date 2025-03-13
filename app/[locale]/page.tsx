@@ -8,6 +8,7 @@ import FlexIcon from '@/components/icons/FlexIcon';
 import MobileIcon from '@/components/icons/MobileIcon';
 import PizzaIcon from '@/components/icons/PizzaIcon';
 import IntroductionSection from '@/components/IntroductionSection';
+import RoadmapSection from '@/components/RoadmapSection';
 
 export default function HomePage() {
   const t = useTranslations();
@@ -64,6 +65,7 @@ export default function HomePage() {
         description={t('become_tutor_stutu.subtitle')}
         items={tutorBenefits}
       />
+      <RoadmapSection />
     </>
   );
 }

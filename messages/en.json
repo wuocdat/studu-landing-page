@@ -52,5 +52,8 @@
       "description": "No receiving fee, no deposit, all income is yours. You deserve to receive everything from the effort you put in."
     },
     "button": "Create profile"
+  },
+  "roadmap": {
+    "title": "A few simple steps. And you're ready."
   }
 }
