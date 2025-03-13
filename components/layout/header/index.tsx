@@ -16,7 +16,7 @@ export default function Header() {
       right={0}
       bg={APP_COLORS.grayBg}
       px="lg"
-      style={{ height: '80px', zIndex: 1000 }}
+      style={{ height: '80px', zIndex: 1 }}
     >
       <Group justify="space-between" align="center" style={{ height: '100%' }}>
         <Group gap="xl">
@@ -27,7 +27,9 @@ export default function Header() {
         </Group>
         <Group gap="md">
           <LanguageMenu />
-          <Button size="xl">{t('login')}</Button>
+          <Button miw={150} size="xl">
+            {t('login')}
+          </Button>
         </Group>
       </Group>
     </Box>

@@ -1,6 +1,7 @@
 'use client';
 
 import { Button, colorsTuple, createTheme, Text } from '@mantine/core';
+import textClasses from './Text.module.css';
 
 export const theme = createTheme({
   fontFamily: 'Nunito, sans-serif',
@@ -17,16 +18,10 @@ export const theme = createTheme({
         h: '56px',
         py: '0px',
         px: '16px',
-        styles: {
-          root: {
-            // lineHeight: '150%',
-            // fontSize: '20px',
-            // borderRadius: '16px',
-          },
-        },
       },
     }),
     Text: Text.extend({
+      classNames: textClasses,
       styles: {
         root: {
           color: '#0A033C',

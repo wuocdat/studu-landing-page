@@ -1,0 +1,39 @@
+'use client';
+
+import { Box, Button, Container, Group, Stack, Text } from '@mantine/core';
+import APP_COLORS from '@/theme/colors';
+import IntroCard from './subComponents/IntroCard';
+
+interface ActivitySectionProps {
+  title: string;
+  actionTitle: string;
+  description: string;
+  items: {
+    icon: React.ReactNode;
+    title: string;
+    description: string;
+  }[];
+}
+
+export default function ActivitySection(props: ActivitySectionProps) {
+  return (
+    <Box bg={APP_COLORS.grayBg}>
+      <Container py={50}>
+        <Stack align="center" gap={0}>
+          <Text variant="big">{props.title}</Text>
+          <Text fw={300} fz={24}>
+            {props.description}
+          </Text>
+          <Group pt={42} pb={50} grow gap="100px" wrap="nowrap" justify="center" align="flex-start">
+            {props.items.map((item, index) => (
+              <IntroCard key={index} data={item} />
+            ))}
+          </Group>
+          <Button w={200} size="xl">
+            {props.actionTitle}
+          </Button>
+        </Stack>
+      </Container>
+    </Box>
+  );
+}
