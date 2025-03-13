@@ -18,5 +18,39 @@
     "title": "STUTU's Story",
     "content": "Learning a language opens up many opportunities, but the journey to conquer is not easy. When faced with difficulties, it is important to have a companion who understands and supports. STUTU is the platform that helps you connect with the right teacher, accompany you to turn your dreams into reality.",
     "learnMore": "Learn more..."
+  },
+  "become_student_stutu": {
+    "title": "Become a STUTU student",
+    "subtitle": "Because you are the captain on your own ship",
+    "transparency": {
+      "title": "Transparency",
+      "description": "STUTU commits to verify and publicly disclose tutor information, helping you choose the right companion with peace of mind."
+    },
+    "autonomy": {
+      "title": "Autonomy",
+      "description": "You completely decide the tutor, study schedule and content according to personal goals."
+    },
+    "flexibility": {
+      "title": "Flexibility",
+      "description": "Study anytime, anywhere according to your schedule, turning free time into development opportunities."
+    },
+    "button": "Register"
+  },
+  "become_tutor_stutu": {
+    "title": "Become a STUTU tutor",
+    "subtitle": "To turn your abilities into unlimited income",
+    "proactive": {
+      "title": "Proactive",
+      "description": "You are free to set a reasonable tuition fee and choose a suitable teaching schedule. No one understands your time and value more than you."
+    },
+    "secure": {
+      "title": "Secure",
+      "description": "STUTU ensures that tuition fees are transferred to you in full and on time. Focus on teaching well, let us take care of the rest."
+    },
+    "no_commission": {
+      "title": "No commission fee",
+      "description": "No receiving fee, no deposit, all income is yours. You deserve to receive everything from the effort you put in."
+    },
+    "button": "Create profile"
   }
 }

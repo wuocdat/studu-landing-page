@@ -18,5 +18,40 @@
     "title": "Câu chuyện của STUTU",
     "content": "Học ngôn ngữ mở ra nhiều cơ hội nhưng hành trình chinh phục không hề dễ dàng. Khi gặp khó khăn, điều quan trọng là có một người đồng hành thấu hiểu và hỗ trợ. STUTU chính là nền tảng giúp bạn kết nối với người thầy phù hợp, đồng hành cùng bạn biến ước mơ thành hiện thực.",
     "learnMore": "Xem thêm..."
+  },
+  "become_student_stutu": {
+    "title": "Trở thành học viên STUTU",
+    "subtitle": "Bởi vì bạn là thuyền trưởng trên con tàu của mình",
+    "transparency": {
+      "title": "Minh bạch",
+      "description": "STUTU cam kết xác thực và công khai thông tin gia sư, giúp bạn an tâm lựa chọn người đồng hành phù hợp."
+    },
+    "autonomy": {
+      "title": "Tự chủ",
+      "description": "Bạn hoàn toàn quyết định gia sư, lịch học và nội dung theo mục tiêu cá nhân."
+    },
+    "flexibility": {
+      "title": "Linh hoạt",
+      "description": "Học mọi lúc, mọi nơi theo lịch trình của bạn, chuyển hóa thời gian rảnh thành cơ hội phát triển."
+    },
+    "button": "Đăng ký"
+  },
+  "become_tutor_stutu": {
+    "title": "Trở thành gia sư STUTU",
+    "subtitle": "Để biến năng lực của bạn thành nguồn thu nhập vô hạn",
+    "proactive": {
+      "title": "Chủ động",
+      "description": "Bạn tự do đặt học phí xứng đáng và chọn lịch dạy phù hợp. Không ai hiểu thời gian và giá trị của bạn hơn chính bạn."
+    },
+    "secure": {
+      "title": "An tâm",
+      "description": "STUTU đảm bảo học phí được chuyển đến bạn đầy đủ, đúng hạn. Hãy tập trung dạy tốt, còn lại cứ để chúng mình lo."
+    },
+    "no_commission": {
+      "title": "Không phí môi giới",
+      "description": "Không phí nhận lớp, không đặt cọc, toàn bộ thu nhập là của bạn. Bạn xứng đáng nhận được mọi thứ từ công sức mình bỏ ra."
+    },
+    "button": "Tạo hồ sơ"
   }
+  
 }
