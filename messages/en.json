@@ -8,5 +8,15 @@
   "metadata": {
     "title": "Tutoring Platform",
     "description": "Find a tutor for your needs or become a tutor and help others"
+  },
+  "HeroSection": {
+    "title": "Connect to Shine Bright",
+    "subTitle": "Learn anytime, anywhere",
+    "startNow": "Getting started"
+  },
+  "IntroductionSection": {
+    "title": "STUTU's Story",
+    "content": "Learning a language opens up many opportunities, but the journey to conquer is not easy. When faced with difficulties, it is important to have a companion who understands and supports. STUTU is the platform that helps you connect with the right teacher, accompany you to turn your dreams into reality.",
+    "learnMore": "Learn more..."
   }
 }

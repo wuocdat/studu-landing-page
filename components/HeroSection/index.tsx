@@ -1,40 +1,39 @@
 'use client';
 
-import { Button, Container, Grid, Image, Text, Title } from '@mantine/core';
+import NextImage from 'next/image';
+import { useTranslations } from 'next-intl';
+import { Box, Button, Image, Stack, Text } from '@mantine/core';
+import bgImage from '@/public/images/hero_bg.svg';
 
 const HeroSection = () => {
+  const t = useTranslations('HeroSection');
+
   return (
-    <Container size="xl" py="xl">
-      <Grid align="center" gutter="md">
-        <Grid.Col span={6}>
-          <Title order={1} size="h1">
-            Knowledge Connection
-            <br />
-            <Text component="span" inherit fw={900}>
-              Open the Door to the Future
-            </Text>
-          </Title>
-          <Text mt="md" size="lg">
-            Discover a wide range of lessons across multiple subjects to enhance your knowledge.
-            Whether it's Math, Literature, English, or Art, we've got you covered! Lorem ipsum,
-            dolor sit amet consectetur adipisicing elit. Nesciunt ipsum qui deleniti praesentium
-            consequuntur eos iste facilis obcaecati, atque beatae vel eligendi, accusamus assumenda
-            optio consectetur magnam officiis? Odio, commodi.
-          </Text>
-          <Button mt="lg" size="lg" radius="md" color="yellow">
-            Get started!
-          </Button>
-        </Grid.Col>
-        {/* Right side: Image or illustration */}
-        <Grid.Col span={6}>
-          <Image
-            src="https://via.placeholder.com/400x300.png?text=Your+Image+Here"
-            alt="Hero Image"
-            radius="md"
-          />
-        </Grid.Col>
-      </Grid>
-    </Container>
+    <Box pos="relative" pt={80}>
+      <Stack pos="absolute" gap="0px" align="center" bottom="50%" left={0} right={0}>
+        <Text fw="900" fz={64}>
+          {t('title')}
+        </Text>
+        <Text fw={200} fz={40} fs="italic">
+          {t('subTitle')}
+        </Text>
+        <Button variant="filled" size="xl" mt={40}>
+          {t('startNow')}
+        </Button>
+      </Stack>
+      <Image
+        component={NextImage}
+        src={bgImage}
+        fit="contain"
+        alt="Background"
+        sizes="100vw"
+        // Make the image display full width
+        style={{
+          width: '100%',
+          height: 'auto',
+        }}
+      />
+    </Box>
   );
 };
 

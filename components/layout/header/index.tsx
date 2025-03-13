@@ -2,13 +2,22 @@ import { useTranslations } from 'next-intl';
 import { Box, Button, Group } from '@mantine/core';
 import StutuLogo from '@/components/icons/StutuLogo';
 import NavAnchor from '@/components/NavAnchor';
+import APP_COLORS from '@/theme/colors';
 import LanguageMenu from './subComponents/LanguageMenu';
 
 export default function Header() {
   const t = useTranslations('header');
 
   return (
-    <Box px="lg" style={{ height: '80px' }}>
+    <Box
+      pos="fixed"
+      top={0}
+      left={0}
+      right={0}
+      bg={APP_COLORS.grayBg}
+      px="lg"
+      style={{ height: '80px', zIndex: 1000 }}
+    >
       <Group justify="space-between" align="center" style={{ height: '100%' }}>
         <Group gap="xl">
           <StutuLogo />

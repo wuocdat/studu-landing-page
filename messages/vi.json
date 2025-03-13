@@ -8,5 +8,15 @@
   "metadata": {
     "title": "Nền tảng gia sư",
     "description": "Tìm gia sư cho nhu cầu của bạn hoặc trở thành gia sư và giúp đỡ người khác"
+  },
+  "HeroSection": {
+    "title": "Kết nối để tỏa sáng",
+    "subTitle": "Học mọi lúc mọi nơi",
+    "startNow": "Bắt đầu ngay"
+  },
+  "IntroductionSection": {
+    "title": "Câu chuyện của STUTU",
+    "content": "Học ngôn ngữ mở ra nhiều cơ hội nhưng hành trình chinh phục không hề dễ dàng. Khi gặp khó khăn, điều quan trọng là có một người đồng hành thấu hiểu và hỗ trợ. STUTU chính là nền tảng giúp bạn kết nối với người thầy phù hợp, đồng hành cùng bạn biến ước mơ thành hiện thực.",
+    "learnMore": "Xem thêm..."
   }
 }

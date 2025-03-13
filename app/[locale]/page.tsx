@@ -1,11 +1,12 @@
-import CTASection from '@/components/CTASection';
 import HeroSection from '@/components/HeroSection';
+import IntroductionSection from '@/components/IntroductionSection';
 
 export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <CTASection />
+      <IntroductionSection />
+      {/* <CTASection /> */}
     </>
   );
 }
