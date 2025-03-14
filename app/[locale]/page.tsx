@@ -9,6 +9,8 @@ import MobileIcon from '@/components/icons/MobileIcon';
 import PizzaIcon from '@/components/icons/PizzaIcon';
 import IntroductionSection from '@/components/IntroductionSection';
 import RoadmapSection from '@/components/RoadmapSection';
+import TutorCarousel from '@/components/StutorPreview';
+import StutuFeedback from '@/components/StutuFeedback';
 
 export default function HomePage() {
   const t = useTranslations();
@@ -66,6 +68,8 @@ export default function HomePage() {
         items={tutorBenefits}
       />
       <RoadmapSection />
+      <TutorCarousel />
+      <StutuFeedback />
     </>
   );
 }
