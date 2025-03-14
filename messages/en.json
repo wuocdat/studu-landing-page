@@ -55,5 +55,34 @@
   },
   "roadmap": {
     "title": "A few simple steps. And you're ready."
+  },
+  "general_information": {
+    "title": "General Information",
+    "about_us": "About Us",
+    "our_team": "Our Team",
+    "how_stutu_works": "How STUTU Works?",
+    "direct_questions": "Direct Questions",
+    "contact_us": "Contact Us"
+  },
+  "for_students": {
+    "title": "For Students",
+    "why_choose_stutu": "Why Choose STUTU",
+    "find_a_tutor": "Find a Tutor",
+    "english_proficiency_test": "English Proficiency Test",
+    "refer_a_friend": "Refer a Friend",
+    "frequently_asked_questions": "Frequently Asked Questions"
+  },
+  "for_tutors": {
+    "title": "For Tutors",
+    "benefits_of_joining": "Benefits of Joining",
+    "registration_guide": "Registration Guide",
+    "frequently_asked_questions": "Frequently Asked Questions"
+  },
+  "platform_policies": {
+    "title": "Platform Policies",
+    "terms_of_service": "Terms of Service",
+    "payment_policy": "Payment Policy",
+    "code_of_conduct": "Code of Conduct",
+    "privacy_policy": "Privacy Policy"
   }
 }

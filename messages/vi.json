@@ -55,6 +55,34 @@
   },
   "roadmap": {
     "title": "Một vài bước đơn giản. Và bạn đã sẵn sàng."
+  },
+  "general_information": {
+    "title": "Thông tin chung",
+    "about_us": "Về chúng tôi",
+    "our_team": "Đội ngũ",
+    "how_stutu_works": "STUTU hoạt động như thế nào?",
+    "direct_questions": "Câu hỏi trực tiếp",
+    "contact_us": "Liên hệ với chúng tôi"
+  },
+  "for_students": {
+    "title": "Dành cho học viên",
+    "why_choose_stutu": "Tại sao chọn STUTU",
+    "find_a_tutor": "Tìm gia sư",
+    "english_proficiency_test": "Kiểm tra trình độ tiếng Anh",
+    "refer_a_friend": "Giới thiệu bạn bè",
+    "frequently_asked_questions": "Câu hỏi thường gặp"
+  },
+  "for_tutors": {
+    "title": "Dành cho gia sư",
+    "benefits_of_joining": "Lợi ích khi đồng hành",
+    "registration_guide": "Hướng dẫn đăng ký",
+    "frequently_asked_questions": "Câu hỏi thường gặp"
+  },
+  "platform_policies": {
+    "title": "Chính sách nền tảng",
+    "terms_of_service": "Điều khoản dịch vụ",
+    "payment_policy": "Chính sách thanh toán",
+    "code_of_conduct": "Quy tắc ứng xử",
+    "privacy_policy": "Quyền riêng tư"
   }
-  
 }

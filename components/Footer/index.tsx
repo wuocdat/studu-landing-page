@@ -1,99 +1,113 @@
 'use client';
 
-import { IconBrandInstagram, IconBrandTwitter, IconBrandYoutube } from '@tabler/icons-react';
-import { ActionIcon, Container, Group, Text } from '@mantine/core';
-import classes from './FooterLinks.module.css';
+import { useTranslations } from 'next-intl';
+import { Anchor, Box, Grid, Group, Stack, Text } from '@mantine/core';
+import AIcon from '../icons/AIcon';
+import FacebookIcon from '../icons/FacebookIcon';
+import InstargramIcon from '../icons/InstargramIcon';
+import LinkedInIcon from '../icons/LinkedInIcon';
+import ZaloIcon from '../icons/ZaloIcon';
 
-const data = [
-  {
-    title: 'About',
-    links: [
-      { label: 'Features', link: '#' },
-      { label: 'Pricing', link: '#' },
-      { label: 'Support', link: '#' },
-      { label: 'Forums', link: '#' },
-    ],
-  },
-  {
-    title: 'Project',
-    links: [
-      { label: 'Contribute', link: '#' },
-      { label: 'Media assets', link: '#' },
-      { label: 'Changelog', link: '#' },
-      { label: 'Releases', link: '#' },
-    ],
-  },
-  {
-    title: 'Community',
-    links: [
-      { label: 'Join Discord', link: '#' },
-      { label: 'Follow on Twitter', link: '#' },
-      { label: 'Email newsletter', link: '#' },
-      { label: 'GitHub discussions', link: '#' },
-    ],
-  },
-];
-
+interface FooterLink {
+  title: string;
+  links: { label: string; link: string }[];
+}
 export function Footer() {
-  const groups = data.map((group) => {
+  const t = useTranslations();
+
+  const data: FooterLink[] = [
+    {
+      title: t('general_information.title'),
+      links: [
+        { label: t('general_information.about_us'), link: '#' },
+        { label: t('general_information.our_team'), link: '#' },
+        { label: t('general_information.how_stutu_works'), link: '#' },
+        { label: t('general_information.direct_questions'), link: '#' },
+        { label: t('general_information.contact_us'), link: '#' },
+      ],
+    },
+    {
+      title: t('for_students.title'),
+      links: [
+        { label: t('for_students.why_choose_stutu'), link: '#' },
+        { label: t('for_students.find_a_tutor'), link: '#' },
+        { label: t('for_students.english_proficiency_test'), link: '#' },
+        { label: t('for_students.refer_a_friend'), link: '#' },
+        { label: t('for_students.frequently_asked_questions'), link: '#' },
+      ],
+    },
+    {
+      title: t('for_tutors.title'),
+      links: [
+        { label: t('for_tutors.benefits_of_joining'), link: '#' },
+        { label: t('for_tutors.registration_guide'), link: '#' },
+        { label: t('for_tutors.frequently_asked_questions'), link: '#' },
+      ],
+    },
+    {
+      title: t('platform_policies.title'),
+      links: [
+        { label: t('platform_policies.terms_of_service'), link: '#' },
+        { label: t('platform_policies.payment_policy'), link: '#' },
+        { label: t('platform_policies.code_of_conduct'), link: '#' },
+        { label: t('platform_policies.privacy_policy'), link: '#' },
+      ],
+    },
+  ];
+
+  const groups = data.map((group, index) => {
     const links = group.links.map((link, index) => (
-      <Text<'a'>
-        key={index}
-        className={classes.link}
-        component="a"
-        href={link.link}
-        onClick={(event) => event.preventDefault()}
-      >
+      <Anchor key={index} href={link.link}>
         {link.label}
-      </Text>
+      </Anchor>
     ));
 
     return (
-      <div className={classes.wrapper} key={group.title}>
-        <Text className={classes.title}>{group.title}</Text>
-        {links}
-      </div>
+      <Grid.Col key={index} span={3}>
+        <Stack gap="sm" pb={36}>
+          <Text fw={700} fz={24} style={{ textDecoration: 'underline' }}>
+            {group.title}
+          </Text>
+          {links}
+        </Stack>
+      </Grid.Col>
     );
   });
 
   return (
-    <footer className={classes.footer}>
-      <Container className={classes.inner}>
-        <div className={classes.logo}>
-          <Group gap={0} className={classes.social} justify="flex-end" wrap="nowrap">
-            <ActionIcon size="lg" color="gray" variant="subtle">
-              <IconBrandTwitter size={18} stroke={1.5} />
-            </ActionIcon>
-            <ActionIcon size="lg" color="gray" variant="subtle">
-              <IconBrandYoutube size={18} stroke={1.5} />
-            </ActionIcon>
-            <ActionIcon size="lg" color="gray" variant="subtle">
-              <IconBrandInstagram size={18} stroke={1.5} />
-            </ActionIcon>
-          </Group>
-          <Text size="xs" c="dimmed" className={classes.description}>
-            Build fully functional accessible web applications faster than ever
+    <Box py={50} px={150}>
+      <Grid w="100%" justify="space-around" align="flex-start">
+        {groups}
+        <Grid.Col span={3}>
+          <Text fz={24} fw={900}>
+            STUTU - Tie to Shine
           </Text>
-        </div>
-        <div className={classes.groups}>{groups}</div>
-      </Container>
-      <Container className={classes.afterFooter}>
-        <Text c="dimmed" size="sm">
-          © 2020 mantine.dev. All rights reserved.
-        </Text>
-
-        <Group gap={0} className={classes.social} justify="flex-end" wrap="nowrap">
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandTwitter size={18} stroke={1.5} />
-          </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandYoutube size={18} stroke={1.5} />
-          </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandInstagram size={18} stroke={1.5} />
-          </ActionIcon>
-        </Group>
-      </Container>
-    </footer>
+        </Grid.Col>
+        <Grid.Col span={3}>
+          <Group>
+            <FacebookIcon />
+            <ZaloIcon />
+            <LinkedInIcon />
+            <InstargramIcon />
+            <AIcon />
+          </Group>
+        </Grid.Col>
+        <Grid.Col span="auto">
+          <Stack w="fit-content" gap={0}>
+            <Text fz={20} fw={900}>
+              Công ty cổ phần tư vấn và giải pháp giáo dục StudiVerse
+            </Text>
+            <Group justify="space-between">
+              <Text fz={20} fw={900}>
+                Giấy chứng nhận số: ...
+              </Text>
+              <Text fz={20} fw={900}>
+                Ngày cấp: .../.../2025
+              </Text>
+            </Group>
+          </Stack>
+        </Grid.Col>
+      </Grid>
+    </Box>
   );
 }
