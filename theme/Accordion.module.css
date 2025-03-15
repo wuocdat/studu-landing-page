@@ -1,10 +1,17 @@
 .label {
   font-size: 26px;
   font-weight: 600;
-  padding-top: 24px;
 }
 
 .content {
   font-size: 22px;
   text-align: justify;
+}
+
+.item {
+  padding-top: 24px;
+}
+
+.chevron {
+  color: #0A033C;
 }

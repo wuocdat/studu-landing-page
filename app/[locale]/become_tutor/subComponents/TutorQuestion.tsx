@@ -30,11 +30,11 @@ const TutorQuestion = () => {
   ));
 
   return (
-    <Stack p={50} gap="xl">
+    <Stack py={50} px="xl" gap="xl">
       <Text variant="big" ta="center">
         Gia sư thường hỏi
       </Text>
-      <Grid columns={11} justify="center">
+      <Grid columns={11} justify="space-around">
         <Grid.Col span={6}>
           <Accordion>{items}</Accordion>
         </Grid.Col>
