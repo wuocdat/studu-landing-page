@@ -1,6 +1,7 @@
 'use client';
 
 import {
+  Accordion,
   Badge,
   Button,
   Chip,
@@ -14,6 +15,7 @@ import {
   Tooltip,
 } from '@mantine/core';
 import APP_COLORS from './colors';
+import accordionClasses from './Accordion.module.css';
 import chipClasses from './Chip.module.css';
 import selectClasses from './Select.module.css';
 import textClasses from './Text.module.css';
@@ -120,6 +122,9 @@ export const theme = createTheme({
           fontSize: 16,
         },
       },
+    }),
+    Accordion: Accordion.extend({
+      classNames: accordionClasses,
     }),
   },
 });
