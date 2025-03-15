@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Box, Button, Group } from '@mantine/core';
 import StutuLogo from '@/components/icons/StutuLogo';
@@ -20,9 +21,11 @@ export default function Header() {
     >
       <Group justify="space-between" align="center" style={{ height: '100%' }}>
         <Group gap="xl">
-          <StutuLogo />
+          <Box h={64} component={Link} href="/">
+            <StutuLogo />
+          </Box>
           <NavAnchor link="/tutor" text={t('findTutor')} />
-          <NavAnchor link="/" text={t('becomeTutor')} />
+          <NavAnchor link="/become_tutor" text={t('becomeTutor')} />
           <NavAnchor link="/" text={t('guide')} withUnderline={false} />
         </Group>
         <Group gap="md">
