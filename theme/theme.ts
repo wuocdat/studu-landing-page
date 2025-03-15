@@ -1,10 +1,12 @@
 'use client';
 
 import {
+  Badge,
   Button,
   Chip,
   colorsTuple,
   createTheme,
+  List,
   Select,
   Text,
   Textarea,
@@ -57,6 +59,8 @@ export const theme = createTheme({
         input: {
           fontSize: 26,
           color: APP_COLORS.primaryText,
+          borderColor: APP_COLORS.primaryText,
+          borderRadius: 10,
         },
       },
       defaultProps: {
@@ -100,6 +104,20 @@ export const theme = createTheme({
       styles: {
         tooltip: {
           textAlign: 'justify',
+        },
+      },
+    }),
+    Badge: Badge.extend({
+      defaultProps: {
+        size: 'xl',
+        radius: 'sm',
+      },
+    }),
+    List: List.extend({
+      styles: {
+        item: {
+          color: APP_COLORS.primaryText,
+          fontSize: 16,
         },
       },
     }),

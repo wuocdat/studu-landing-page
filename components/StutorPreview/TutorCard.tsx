@@ -1,7 +1,7 @@
 import { IconCertificate, IconCoins } from '@tabler/icons-react';
 import { Anchor, Button, Card, Group, Image, Stack, Text } from '@mantine/core';
+import CheckIcon from '../icons/CheckIcon';
 import ShcoolIcon from '../icons/ShcoolIcon';
-import UserIcon from '../icons/UserIcon';
 
 interface TutorCardProps {
   name: string;
@@ -31,7 +31,7 @@ export default function TutorCard({
           <Text fw={800} fz={32}>
             {name}{' '}
           </Text>
-          <UserIcon />
+          <CheckIcon />
         </Group>
         <Image w={140} src="/images/rate.png" alt="rate" />
       </Stack>
