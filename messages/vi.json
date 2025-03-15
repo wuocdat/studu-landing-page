@@ -97,5 +97,31 @@
     "STUTUtor_badge": "STUTUtor là huy hiệu được trao cho các gia sư tiêu biểu của nền tảng",
     "professional_badge": "Professional là huy hiệu được trao cho các gia sư có bằng cấp và chứng chỉ liên quan đến ngôn ngữ mà họ giảng dạy",
     "clear_filter": "Xoá tất cả tuỳ chọn"
+  },
+  "tutor_benefits": {
+    "no_introduction_fee": {
+      "title": "Không lo phí môi giới",
+      "description": "STUTU không thu bất kỳ một khoản phí nào từ gia sư. Toàn bộ thu nhập của bạn, theo mức học phí bạn đặt ra sẽ về tận tay bạn. STUTU luôn không định can thiệp minh bạch vào công bằng đối với gia sư và học viên. Mọi nỗ lực và chuyên môn của bạn sẽ được đền đáp xứng đáng, mà không phải chịu bất kỳ chi phí ẩn nào từ phía nền tảng."
+    },
+    "no_late_or_skipped_payment": {
+      "title": "Không lo thanh toán muộn (hoặc bùng)",
+      "description": "Học viên sẽ cần thanh toán trước cho STUTU khi đăng ký học với bạn. Chỉ cần bạn tham gia đầy đủ buổi học và đảm bảo truyền tải tốt kiến thức tới học viên, bạn sẽ luôn nhận được thu nhập của mình đúng hạn vào ngày 10 hàng tháng. Các giao dịch được thực hiện một cách minh bạch và không có bất kỳ khoản phí phụ nào gây ảnh hưởng đến thu nhập của gia sư."
+    },
+    "flexible_schedule": {
+      "title": "Chủ động lịch rảnh của bạn",
+      "description": "Với STUTU, bạn hoàn toàn chủ động quản lý lịch rảnh của mình. Bạn có thể tự do sắp xếp thời gian dạy học theo nhu cầu cá nhân, không bị ràng buộc bởi lịch trình cố định. Hệ thống linh hoạt của chúng tôi cho phép bạn nhận hoặc từ chối lớp học, đảm bảo cân bằng giữa công việc và cuộc sống. Tận hưởng tự do và tối ưu hiệu quả giảng dạy theo cách riêng của bạn."
+    },
+    "set_your_own_fee": {
+      "title": "Tự thiết lập học phí",
+      "description": "Khi đăng ký hồ sơ với STUTU, bạn có quyền đặt mức học phí cho một giờ giảng dạy của mình. Không bị ràng buộc bởi mức học phí cố định, bạn có thể điều chỉnh giá dựa trên chất lượng và kinh nghiệm cá nhân, tối ưu thu nhập và thể hiện giá trị chuyên môn. Hãy tận dụng cơ hội này để tạo ra mức học phí phù hợp với nhu cầu học viên, từ đó phát triển sự nghiệp giảng dạy một cách tự do và hiệu quả."
+    },
+    "personal_brand_development": {
+      "title": "Phát triển thương hiệu cá nhân",
+      "description": "STUTU giúp gia sư phát triển thương hiệu cá nhân một cách chuyên nghiệp. Bạn có thể tạo hồ sơ giảng dạy độc đáo, chia sẻ thành tựu và phát huy thế mạnh của mình, giúp học viên dễ dàng tìm kiếm và đặt lịch với bạn. STUTU luôn đồng hành hỗ trợ quảng bá thương hiệu cá nhân của bạn, giúp bạn mở rộng mối quan hệ và xây dựng uy tín lâu dài với học viên."
+    },
+    "broad_market_access": {
+      "title": "Tiếp cận thị trường rộng rãi",
+      "description": "STUTU giúp gia sư tiếp cận mạng lưới học viên đa dạng trên khắp cả nước. Với nền tảng thông minh, bạn có thể xây dựng hồ sơ cá nhân chuyên nghiệp, giới thiệu năng lực giảng dạy một cách hiệu quả đến toàn bộ học viên là người dùng của STUTU. Bạn hãy cùng STUTU đóng góp vào việc xây dựng môi trường giáo dục số phát triển bền vững nhé."
+    }
   }
 }

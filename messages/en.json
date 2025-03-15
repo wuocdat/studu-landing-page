@@ -97,5 +97,31 @@
     "STUTUtor_badge": "STUTUtor is a badge awarded to outstanding tutors on the platform.",
     "professional_badge": "The Professional badge is awarded to tutors who have degrees and certifications related to the language they teach.",
     "clear_filter": "Clear all selections"
-}
+  },
+  "tutor_benefits": {
+    "no_introduction_fee": {
+      "title": "No Introduction Fee",
+      "description": "STUTU does not charge any fee for tutors. Your entire income, according to the tuition fee you set, will be yours. STUTU does not intervene in the transparent agreement between tutors and students. All your efforts and dedication will be rewarded fairly without any deductions from the platform."
+    },
+    "no_late_or_skipped_payment": {
+      "title": "No Late or Skipped Payment",
+      "description": "Students must pay in advance to STUTU when registering for a class. You only need to complete all sessions and ensure effective knowledge transfer to students, then you will always receive your income on the 10th of each month. Transactions are conducted transparently, with no additional fees affecting your earnings."
+    },
+    "flexible_schedule": {
+      "title": "Flexible Schedule",
+      "description": "With STUTU, you have complete control over managing your schedule. You can arrange class times based on your needs without being bound by a fixed curriculum. Our flexible system allows you to accept or decline classes, ensuring a balance between work and life. Enjoy and optimize your teaching efficiency according to your personal preferences."
+    },
+    "set_your_own_fee": {
+      "title": "Set Your Own Fee",
+      "description": "When registering a tutor profile on STUTU, you have the right to set your own hourly rate. There are no fixed price constraints; instead, the fee is determined based on the quality and experience of the tutor, as well as the value they bring. Take this opportunity to set a reasonable tuition fee that suits student needs while developing your teaching career independently and effectively."
+    },
+    "personal_brand_development": {
+      "title": "Personal Brand Development",
+      "description": "STUTU helps tutors build a professional personal brand. You can create a unique, distinctive profile to highlight your strengths and expertise, making it easier for students to find and book your services. STUTU always supports the growth of your personal brand, helping expand your teaching network and build long-term relationships with students."
+    },
+    "broad_market_access": {
+      "title": "Broad Market Access",
+      "description": "STUTU helps you connect with a diverse network of students across various locations. With a smart platform, you can establish a professional teaching profile, demonstrate your expertise, and teach efficiently to a wide audience of students searching for quality tutors on STUTU. Join STUTU to build an engaging educational environment and achieve sustainable growth."
+    }
+  }
 }
