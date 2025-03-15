@@ -21,7 +21,7 @@ export default function Header() {
       <Group justify="space-between" align="center" style={{ height: '100%' }}>
         <Group gap="xl">
           <StutuLogo />
-          <NavAnchor link="/" text={t('findTutor')} />
+          <NavAnchor link="/tutor" text={t('findTutor')} />
           <NavAnchor link="/" text={t('becomeTutor')} />
           <NavAnchor link="/" text={t('guide')} withUnderline={false} />
         </Group>

@@ -84,5 +84,18 @@
     "payment_policy": "Chính sách thanh toán",
     "code_of_conduct": "Quy tắc ứng xử",
     "privacy_policy": "Quyền riêng tư"
+  },
+  "find_tutors": {
+    "title": "Hành trình sẽ ý nghĩa hơn khi có người đồng hành phù hợp",
+    "subtitle": "Tại STUTU, các gia sư đều là những người có kinh nghiệm trong môn học của mình với hồ sơ đã được kiểm tra và xét duyệt kĩ càng bởi đội ngũ nền tảng.",
+    "languageSelection": "Ngôn ngữ lựa chọn:",
+    "subject": "Môn học",
+    "hourlyRate": "Học phí theo giờ",
+    "freeTime": "Thời gian rảnh",
+    "skillsToImprove": "Kỹ năng cần cải thiện",
+    "tutorBadge": "Huy hiệu gia sư",
+    "STUTUtor_badge": "STUTUtor là huy hiệu được trao cho các gia sư tiêu biểu của nền tảng",
+    "professional_badge": "Professional là huy hiệu được trao cho các gia sư có bằng cấp và chứng chỉ liên quan đến ngôn ngữ mà họ giảng dạy",
+    "clear_filter": "Xoá tất cả tuỳ chọn"
   }
 }

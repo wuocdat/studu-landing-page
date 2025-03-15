@@ -84,5 +84,18 @@
     "payment_policy": "Payment Policy",
     "code_of_conduct": "Code of Conduct",
     "privacy_policy": "Privacy Policy"
-  }
+  },
+  "find_tutors": {
+    "title": "The journey becomes more meaningful with the right companion",
+    "subtitle": "At STUTU, all tutors are experienced in their subjects, with profiles carefully reviewed and approved by our platform team.",
+    "languageSelection": "Language Selection:",
+    "subject": "Subject",
+    "hourlyRate": "Hourly Rate",
+    "freeTime": "Free Time",
+    "skillsToImprove": "Skills to Improve",
+    "tutorBadge": "Tutor Badge",
+    "STUTUtor_badge": "STUTUtor is a badge awarded to outstanding tutors on the platform.",
+    "professional_badge": "The Professional badge is awarded to tutors who have degrees and certifications related to the language they teach.",
+    "clear_filter": "Clear all selections"
+}
 }
