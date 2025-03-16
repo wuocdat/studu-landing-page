@@ -123,5 +123,11 @@
       "title": "Tiếp cận thị trường rộng rãi",
       "description": "STUTU giúp gia sư tiếp cận mạng lưới học viên đa dạng trên khắp cả nước. Với nền tảng thông minh, bạn có thể xây dựng hồ sơ cá nhân chuyên nghiệp, giới thiệu năng lực giảng dạy một cách hiệu quả đến toàn bộ học viên là người dùng của STUTU. Bạn hãy cùng STUTU đóng góp vào việc xây dựng môi trường giáo dục số phát triển bền vững nhé."
     }
+  },
+  "guidebook": {
+    "title": "Cẩm nang hướng dẫn",
+    "subtitle": "Có thể bạn không hỏi. STUTU vẫn trả lời",
+    "tutor_guide": "Hướng dẫn gia sư",
+    "student_guide": "Hướng dẫn học viên"
   }
 }

@@ -123,5 +123,11 @@
       "title": "Broad Market Access",
       "description": "STUTU helps you connect with a diverse network of students across various locations. With a smart platform, you can establish a professional teaching profile, demonstrate your expertise, and teach efficiently to a wide audience of students searching for quality tutors on STUTU. Join STUTU to build an engaging educational environment and achieve sustainable growth."
     }
+  },
+  "guidebook": {
+    "title": "Guidebook",
+    "subtitle": "Maybe you don't ask. STUTU still answers",
+    "tutor_guide": "Tutor Guide",
+    "student_guide": "Student Guide"
   }
 }

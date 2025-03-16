@@ -1,0 +1,12 @@
+.root {
+  &[data-variant='hover'] {
+    background-color: transparent;
+    color: #0A033C;
+    border: 8px;
+
+    &:hover {
+      background-color: #E63B7A;
+      color: white;
+    }
+  }
+}

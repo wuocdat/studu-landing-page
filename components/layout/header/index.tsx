@@ -26,7 +26,7 @@ export default function Header() {
           </Box>
           <NavAnchor link="/tutor" text={t('findTutor')} />
           <NavAnchor link="/become_tutor" text={t('becomeTutor')} />
-          <NavAnchor link="/" text={t('guide')} withUnderline={false} />
+          <NavAnchor link="/guide" text={t('guide')} withUnderline={false} />
         </Group>
         <Group gap="md">
           <LanguageMenu />

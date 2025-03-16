@@ -16,6 +16,7 @@ import {
 } from '@mantine/core';
 import APP_COLORS from './colors';
 import accordionClasses from './Accordion.module.css';
+import buttonClasses from './Button.module.css';
 import chipClasses from './Chip.module.css';
 import selectClasses from './Select.module.css';
 import textClasses from './Text.module.css';
@@ -36,6 +37,7 @@ export const theme = createTheme({
         px: '16px',
         radius: 16,
       },
+      classNames: buttonClasses,
     }),
     Text: Text.extend({
       classNames: textClasses,
