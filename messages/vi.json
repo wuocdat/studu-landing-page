@@ -129,5 +129,32 @@
     "subtitle": "Có thể bạn không hỏi. STUTU vẫn trả lời",
     "tutor_guide": "Hướng dẫn gia sư",
     "student_guide": "Hướng dẫn học viên"
+  },
+  "student_guide": {
+    "title": "Học viên hỏi <br>STUTU trả lời</br>",
+    "subtitle": "Tất tần tật để trở thành học viên STUTU",
+    "initial_steps": {
+      "title": "Các bước ban đầu",
+      "account_registration": {
+        "title": "Hướng dẫn đăng ký tài khoản",
+        "md_content": "**Cách 1:** Click vào nút **Đăng nhập** ở góc trên bên phải để mở cửa sổ đăng ký. Từ đây, bạn có thể “Tiếp tục với Google” hoặc “Tiếp tục với Facebook” để đăng ký bằng tài khoản Google hoặc Facebook mà bạn đã có sẵn.\n\n**Cách 2:** Click vào nút **Đăng nhập** ở góc trên bên phải để mở cửa sổ đăng nhập. Từ đây, bạn có thể chọn **Đăng ký với tư cách học viên**. Với lựa chọn này, bạn cần cung cấp cho STUTU các thông tin bao gồm “tên hiển thị”, “email” và “mật khẩu”.\n\n*Lưu ý: Việc đăng ký tạo tài khoản đồng nghĩa với việc bạn xác nhận đã đọc và đồng ý với **Điều khoản dịch vụ**, **Bộ quy tắc ứng xử** và **Chính sách quyền riêng tư** của STUTU. Hãy đảm bảo bạn đọc thật kỹ và đồng ý với tất cả các điều khoản trước khi tiếp tục nhé.*"
+      },
+      "login_guide": {
+        "title": "Hướng dẫn đăng nhập",
+        "md_content": "Sau khi đăng ký, hệ thống sẽ ghi nhận các thông tin mà bạn đã cung cấp và lần sau bạn không cần đăng nhập lại nữa. Nếu bạn đăng nhập trên một trình duyệt khác, bạn có thể đăng nhập theo một trong **hai** cách sau:\n\n**Cách 1:** Click vào nút **Đăng nhập** ở góc trên bên phải để mở cửa sổ đăng nhập. Từ đây, bạn có thể \"Tiếp tục với google\" hoặc \"Tiếp tục với Facebook\" để đăng nhập bằng tài khoản Google hoặc Facebook mà bạn đã đăng ký trước đó với STUTU.\n\n**Cách 2:** Click vào nút **Đăng nhập** ở góc trên bên phải để mở cửa sổ đăng nhập. Từ đây, bạn có thể đăng nhập bằng cách nhập email và mật khẩu mà bạn đã đăng ký trước đó với STUTU."
+      },
+      "student_regulations": {
+        "title": "Quy định dành cho học viên",
+        "md_content": "Việc đăng ký tài khoản đồng nghĩa với việc bạn đã đọc và đồng ý với **Điều khoản dịch vụ** và **Bộ quy tắc ứng xử** của nền tảng, trong đó bao gồm, nhưng không giới hạn ở, các quy định sau:\n\n1. Không chia sẻ thông tin cá nhân dưới mọi hình thức. Các thông tin bao gồm, nhưng không giới hạn ở:\n   - Số điện thoại  \n   - Email  \n   - Tài khoản mạng xã hội (Facebook, Instagram,...)\n\n2. Không gửi tin nhắn chứa các nội dung bao gồm, nhưng không giới hạn ở:\n   - Đường liên kết (Links) không phục vụ cho mục đích học tập trên nền tảng  \n   - Quảng cáo  \n   - Tuyển dụng\n\n3. **NGHIÊM CẤM** các hành vi lừa đảo, quấy rối, làm phiền và tất cả các hành vi vi phạm pháp luật nước Cộng hoà Xã hội Chủ nghĩa Việt Nam.\n\nCác hành vi vi phạm sẽ được xử lý theo quy định trong **Điều khoản dịch vụ** của STUTU."
+      },
+      "profile_update": {
+        "title": "Thay đổi thông tin trong hồ sơ",
+        "md_content": "Sau đây là các bước để bạn có thể thay đổi thông tin trên profile cá nhân:\n\n**Bước 1:** Vào phần “Cài đặt”\n\n**Bước 2:** Click vào phần “Thông tin cá nhân”\n\n**Bước 3:** Điều chỉnh những thông tin bạn mong muốn\n\n**Bước 4:** Click vào “Lưu thay đổi”"
+      },
+      "password_change": {
+        "title": "Thay đổi mật khẩu",
+        "md_content": "Sau đây là các bước để bạn có thể đổi mật khẩu cho tài khoản trên STUTU:\n\n**Bước 1:** Vào phần “Cài đặt”\n\n**Bước 2:** Click vào phần “Mật khẩu”\n\n**Bước 3:** Điền mật khẩu hiện tại\n\n**Bước 4:** Điền mật khẩu mới và xác nhận lại mật khẩu lần 2\n\n**Bước 5:** Click vào “Lưu thay đổi”"
+      }
+    }
   }
 }

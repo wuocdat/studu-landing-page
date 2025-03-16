@@ -129,5 +129,32 @@
     "subtitle": "Maybe you don't ask. STUTU still answers",
     "tutor_guide": "Tutor Guide",
     "student_guide": "Student Guide"
+  },
+  "student_guide": {
+    "title": "Students ask <br>STUTU answers</br>",
+    "subtitle": "Everything you need to become a STUTU student",
+    "initial_steps": {
+      "title": "Initial Steps",
+      "account_registration": {
+        "title": "Account Registration Guide",
+        "md_content": "**Method 1:** Click the **Login** button in the upper right corner to open the registration window. From here, you can select “Continue with Google” or “Continue with Facebook” to sign up using your existing Google or Facebook account.\n\n**Method 2:** Click the **Login** button in the upper right corner to open the login window. From here, you can select **Sign up as a student**. With this option, you need to provide STUTU with information including a “display name,” “email,” and “password.”\n\n*Note: Registering an account means that you confirm you have read and agreed to STUTU's **Terms of Service**, **Code of Conduct**, and **Privacy Policy**. Please make sure to read them carefully and agree to all terms before proceeding.*"
+      },
+      "login_guide": {
+        "title": "Login Guide",
+        "md_content": "After registration, the system will remember the information you provided, so you won’t need to log in again next time. If you log in on a different browser, you can log in using one of the **two** following methods:\n\n**Method 1:** Click the **Login** button in the upper right corner to open the login window. From here, you can select “Continue with Google” or “Continue with Facebook” to log in using the Google or Facebook account you previously registered with STUTU.\n\n**Method 2:** Click the **Login** button in the upper right corner to open the login window. From here, you can log in by entering the email and password you registered with STUTU."
+      },
+      "student_regulations": {
+        "title": "Student Regulations",
+        "md_content": "Registering an account means you have read and agreed to the platform's **Terms of Service** and **Code of Conduct**, which include, but are not limited to, the following rules:\n\n1. Do not share personal information in any form. This includes, but is not limited to:\n   - Phone number  \n   - Email  \n   - Social media accounts (Facebook, Instagram, etc.)\n\n2. Do not send messages containing content including, but not limited to:\n   - Links that are not intended for educational purposes on the platform  \n   - Advertisements  \n   - Recruitment posts\n\n3. **STRICTLY PROHIBITED** acts include fraud, harassment, disturbance, and any violations of the laws of the Socialist Republic of Vietnam.\n\nViolations will be handled according to STUTU's **Terms of Service**."
+      },
+      "profile_update": {
+        "title": "Updating Profile Information",
+        "md_content": "Follow these steps to update your personal profile information:\n\n**Step 1:** Go to “Settings”\n\n**Step 2:** Click on “Personal Information”\n\n**Step 3:** Edit the information you want to change\n\n**Step 4:** Click “Save Changes”"
+      },
+      "password_change": {
+        "title": "Changing Password",
+        "md_content": "Follow these steps to change your STUTU account password:\n\n**Step 1:** Go to “Settings”\n\n**Step 2:** Click on “Password”\n\n**Step 3:** Enter your current password\n\n**Step 4:** Enter a new password and confirm it\n\n**Step 5:** Click “Save Changes”"
+      }
+    }
   }
 }

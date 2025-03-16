@@ -16,8 +16,8 @@ const GuidePage = () => {
         {t('subtitle')}
       </Text>
       <Group gap="xl" mt={50}>
-        <GuideCard image={tutorImage} text={t('tutor_guide')} />
-        <GuideCard image={userImage} text={t('student_guide')} />
+        <GuideCard image={tutorImage} text={t('tutor_guide')} href="/tutor_guide" />
+        <GuideCard image={userImage} text={t('student_guide')} href="/student_guide" />
       </Group>
     </Stack>
   );
