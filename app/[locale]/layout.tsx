@@ -6,7 +6,7 @@ import React from 'react';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
-import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
+import { Box, ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
 import { Footer } from '@/components/Footer';
 import Header from '@/components/layout/header';
 import { routing } from '@/i18n/routing';
@@ -59,7 +59,7 @@ export default async function RootLayout({
           <MantineProvider theme={theme}>
             <>
               <Header />
-              {children}
+              <Box py={80}>{children}</Box>
               <Footer />
             </>
           </MantineProvider>

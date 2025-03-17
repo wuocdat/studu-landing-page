@@ -5,7 +5,7 @@ import TutorFilterSection from './subComponent/TutorFilterSection';
 
 const TutorPage = () => {
   return (
-    <Stack py={150}>
+    <Stack py={70}>
       <IntroSection />
       <TutorFilterSection />
       <StututorResultSection />

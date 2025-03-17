@@ -6,7 +6,7 @@ import TutorQuestion from './subComponents/TutorQuestion';
 
 const BecomeTutorPage = () => {
   return (
-    <Stack py={100}>
+    <Stack py={20}>
       <StepsSection />
       <TutorBenefitSection />
       <StutuFeedback />

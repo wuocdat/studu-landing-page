@@ -9,7 +9,7 @@ const HeroSection = () => {
   const t = useTranslations('HeroSection');
 
   return (
-    <Box pos="relative" pt={80}>
+    <Box pos="relative">
       <Stack pos="absolute" gap="0px" align="center" bottom="50%" left={0} right={0}>
         <Text fw="900" fz={64}>
           {t('title')}

@@ -1,7 +1,10 @@
 'use client';
 
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import Markdown from 'react-markdown';
-import { Accordion, Stack, Text } from '@mantine/core';
+import { Accordion, Anchor, Flex, Stack, Text } from '@mantine/core';
+import APP_COLORS from '@/theme/colors';
 
 export type ContentGuide = {
   highlight?: boolean;
@@ -19,6 +22,8 @@ interface GuideBookProps {
 }
 
 export default function GuideBook({ guides }: GuideBookProps) {
+  const t = useTranslations('general_information');
+
   return (
     <Stack>
       {guides.map((guide, index) => (
@@ -46,6 +51,18 @@ export default function GuideBook({ guides }: GuideBookProps) {
                 </Accordion.Control>
                 <Accordion.Panel>
                   <Markdown>{item.contentMd}</Markdown>
+                  <Flex justify="end">
+                    <Anchor
+                      component={Link}
+                      href="/detail_student_guide"
+                      fz={22}
+                      fs="italic"
+                      c={APP_COLORS.primary}
+                      fw={300}
+                    >
+                      {t('see_guide_detail')}
+                    </Anchor>
+                  </Flex>
                 </Accordion.Panel>
               </Accordion.Item>
             ))}
