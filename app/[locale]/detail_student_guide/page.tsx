@@ -1,30 +1,30 @@
-'use client';
-
+import { use } from 'react';
 import NextImage from 'next/image';
-import {
-  Container,
-  Grid,
-  Image,
-  Stack,
-  TableOfContents,
-  Text,
-  TextInput,
-  Title,
-} from '@mantine/core';
+import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
+import { Anchor, Container, Grid, GridCol, Image, Stack, Text, TextInput } from '@mantine/core';
 import introImage from '@/public/images/user_with_laptop.svg';
+import GuideTrack from './subComponents/GuideContent';
 
-export default function DetailStudentGuide() {
+export default function DetailStudentGuide({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = use<{ locale: string }>(params);
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
+  const t = useTranslations('detailed_guide_students');
+
   return (
     <Stack my={70}>
       <Container size="xl">
         <Grid columns={13}>
-          <Grid.Col span={8}>
+          <GridCol span={8}>
             <Stack h={500}>
               <Text fz={64} fw={900} lh="100%">
-                Lời khuyên và hướng dẫn dành cho học viên
+                {t('title')}
               </Text>
               <Text fz={22} fw={300} fs="italic">
-                Tất tần tật để trở thành học viên STUTU
+                {t('subtitle')}
               </Text>
               <TextInput
                 maw={400}
@@ -37,48 +37,40 @@ export default function DetailStudentGuide() {
                 }}
               />
             </Stack>
-          </Grid.Col>
-          <Grid.Col span={5}>
+          </GridCol>
+          <GridCol span={5}>
             <Image component={NextImage} src={introImage} alt="student guide" fit="contain" />
-          </Grid.Col>
+          </GridCol>
         </Grid>
       </Container>
-      <Container w="100%" size="xl">
-        <Grid gutter={50}>
-          <Grid.Col span={3}>
-            <TableOfContents
-              pos="sticky"
-              top={120}
-              variant="filled"
-              size="sm"
-              radius="sm"
-              depthOffset={24}
-              scrollSpyOptions={{
-                selector: 'h1, h2',
-              }}
-              getControlProps={({ data }) => ({
-                onClick: () => data.getNode().scrollIntoView(),
-                children: data.value,
-              })}
-              styles={{
-                control: {
-                  fontSize: 14,
-                  fontWeight: 600,
-                },
-              }}
+      <Grid>
+        <GridCol span={3} offset={1}>
+          <Anchor href="#account_registration">{t('login_guide.title')}</Anchor>
+        </GridCol>
+        <GridCol span={7}>
+          <Stack>
+            <GuideTrack
+              scrollId="account_registration"
+              title={t('account_registration.title')}
+              intro={t('account_registration.intro')}
+              link="abc"
+              mdContent={t('account_registration.md_content')}
             />
-          </Grid.Col>
-          <Grid.Col span={9}>
-            <Stack>
-              <Title order={1}>Hướng dẫn đăng ký tài khoản</Title>
-              <Title order={1}>Hướng dẫn đăng nhập</Title>
-              <Title order={1}>Quy định dành cho học viên</Title>
-              <Title order={2}>Quy định dành cho học viên</Title>
-              <Title order={2}>Quy định dành cho học viên</Title>
-            </Stack>
-          </Grid.Col>
-        </Grid>
-      </Container>
+            <GuideTrack
+              scrollId="login_guide"
+              title={t('login_guide.title')}
+              intro={t('login_guide.intro')}
+              link="abc"
+              mdContent={t('login_guide.md_content')}
+            />
+            <GuideTrack
+              scrollId="student_regulations"
+              title={t('student_regulations.title')}
+              mdContent={t.raw('student_regulations.md_content')}
+            />
+          </Stack>
+        </GridCol>
+      </Grid>
     </Stack>
   );
 }
