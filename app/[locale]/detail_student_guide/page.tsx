@@ -45,7 +45,17 @@ export default function DetailStudentGuide({ params }: { params: Promise<{ local
       </Container>
       <Grid>
         <GridCol span={3} offset={1}>
-          <Anchor href="#account_registration">{t('login_guide.title')}</Anchor>
+          <Stack pos="sticky" top={100}>
+            <Anchor variant="small" href="#account_registration">
+              {t('account_registration.title')}
+            </Anchor>
+            <Anchor variant="small" href="#login_guide">
+              {t('login_guide.title')}
+            </Anchor>
+            <Anchor variant="small" href="#student_regulations">
+              {t('student_regulations.title')}
+            </Anchor>
+          </Stack>
         </GridCol>
         <GridCol span={7}>
           <Stack>

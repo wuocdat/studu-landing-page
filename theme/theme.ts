@@ -2,6 +2,7 @@
 
 import {
   Accordion,
+  Anchor,
   Badge,
   Button,
   Chip,
@@ -16,6 +17,7 @@ import {
 } from '@mantine/core';
 import APP_COLORS from './colors';
 import accordionClasses from './Accordion.module.css';
+import anchorClasses from './Anchor.module.css';
 import buttonClasses from './Button.module.css';
 import chipClasses from './Chip.module.css';
 import selectClasses from './Select.module.css';
@@ -127,6 +129,9 @@ export const theme = createTheme({
     }),
     Accordion: Accordion.extend({
       classNames: accordionClasses,
+    }),
+    Anchor: Anchor.extend({
+      classNames: anchorClasses,
     }),
   },
 });

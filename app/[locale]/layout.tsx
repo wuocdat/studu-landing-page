@@ -1,5 +1,6 @@
 import '@mantine/core/styles.css';
 import '@/styles/Nunito.css';
+import '@/styles/global.css';
 import '@mantine/carousel/styles.css';
 
 import React from 'react';
