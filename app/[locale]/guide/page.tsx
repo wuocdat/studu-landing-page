@@ -1,10 +1,17 @@
+import { use } from 'react';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import { Group, Stack, Text } from '@mantine/core';
 import GuideCard from '@/components/GuideCard';
 import tutorImage from '@/public/images/tutor_guide.svg';
 import userImage from '@/public/images/user_guide.svg';
 
-const GuidePage = () => {
+const GuidePage = ({ params }: { params: Promise<{ locale: string }> }) => {
+  const { locale } = use<{ locale: string }>(params);
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
   const t = useTranslations('guidebook');
 
   return (

@@ -5,12 +5,16 @@ import '@mantine/carousel/styles.css';
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { Box, ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
 import { Footer } from '@/components/Footer';
 import Header from '@/components/layout/header';
 import { routing } from '@/i18n/routing';
 import { theme } from '../../theme/theme';
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 // export const metadata = {
 //   title: 'Stutu - Kết nối để toả sáng',
@@ -39,6 +43,9 @@ export default async function RootLayout({
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
+
+  // Enable static rendering
+  setRequestLocale(locale);
 
   // Providing all messages to the client
   // side is the easiest way to get started

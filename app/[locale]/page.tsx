@@ -1,4 +1,6 @@
+import { use } from 'react';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import ActivitySection from '@/components/ActivitySection';
 import HeroSection from '@/components/HeroSection';
 import AutonomyIcon from '@/components/icons/AutonomyIcon';
@@ -12,7 +14,12 @@ import RoadmapSection from '@/components/RoadmapSection';
 import TutorCarousel from '@/components/StutorPreview';
 import StutuFeedback from '@/components/StutuFeedback';
 
-export default function HomePage() {
+export default function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = use<{ locale: string }>(params);
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
   const t = useTranslations();
 
   const stutuBenefits = [
