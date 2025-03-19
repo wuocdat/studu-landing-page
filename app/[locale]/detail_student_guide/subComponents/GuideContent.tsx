@@ -29,7 +29,7 @@ export default function GuideTrack({ title, scrollId, intro, link, mdContent }: 
         <>
           <AspectRatio ratio={16 / 9}>
             <iframe
-              src="https://www.youtube.com/embed/mzJ4vCjSt28"
+              src="https://www.youtube.com/embed/Hmlt7QEvtFc?si=2BWzMk87un3sf3xZ"
               title="YouTube video player"
               style={{ border: 0 }}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

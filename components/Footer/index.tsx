@@ -57,15 +57,15 @@ export function Footer() {
 
   const groups = data.map((group, index) => {
     const links = group.links.map((link, index) => (
-      <Anchor key={index} href={link.link}>
+      <Anchor fz={16} fw={400} key={index} href={link.link}>
         {link.label}
       </Anchor>
     ));
 
     return (
-      <Grid.Col key={index} span={3}>
+      <Grid.Col key={index} span={3} offset={1}>
         <Stack gap="sm" pb={36}>
-          <Text fw={700} fz={24} style={{ textDecoration: 'underline' }}>
+          <Text fw={800} fz={24} style={{ textDecoration: 'underline' }}>
             {group.title}
           </Text>
           {links}
@@ -75,15 +75,15 @@ export function Footer() {
   });
 
   return (
-    <Box py={50} px={150}>
-      <Grid w="100%" justify="space-around" align="flex-start">
+    <Box py={50}>
+      <Grid columns={17} w="100%">
         {groups}
-        <Grid.Col span={3}>
+        <Grid.Col span={4} offset={1}>
           <Text fz={24} fw={900}>
             STUTU - Tie to Shine
           </Text>
         </Grid.Col>
-        <Grid.Col span={3}>
+        <Grid.Col span={4}>
           <Group>
             <FacebookIcon />
             <ZaloIcon />
