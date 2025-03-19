@@ -162,7 +162,35 @@
   "about_us": {
     "title": "Đưa tri thức Việt<br>vươn tầm thế giới</br>",
     "subtitle": "STUTU không phải là đích đến. STUTU là khởi đầu của một hành trình dài",
-    "join_with_us": "Tham gia cùng chúng tôi"
+    "join_with_us": "Tham gia cùng chúng tôi",
+    "stutu_story": "Câu chuyện của STUTU",
+    "stutu_story_content_1": "Ngôn ngữ thứ hai không chỉ là công cụ, mà còn là cánh cửa mở ra những cơ hội mới – từ tấm vé vào đại học mơ ước, đến cơ hội học tập và làm việc trên toàn cầu. Nhưng hành trình chinh phục ngôn ngữ không phải lúc nào cũng dễ dàng. STUTU hiểu rằng điều học viên thực sự cần không chỉ là phương pháp, mà là một người đồng hành – một người thầy, một người bạn, một người đã từng trải qua những khó khăn như vậy.",
+    "stutu_story_content_2": "Chúng tôi tin rằng với sự hỗ trợ đúng lúc, đúng cách, học viên có thể vượt qua mọi thử thách. Và hơn hết, không ai có thể chọn người đồng hành phù hợp cho bạn hơn chính bạn. STUTU trao cho học viên quyền tự chủ tìm kiếm, lựa chọn và kết nối với người thầy lý tưởng, biến hành trình học tập trở thành một trải nghiệm đầy cảm hứng.",
+    "vision": {
+      "title": "Tầm nhìn",
+      "description": "Bằng khát vọng tiên phong trong việc thay đổi cách dạy và học truyền thống, STUTU hướng đến xây dựng hệ sinh thái 'Trường học tại nhà' nơi học viên có thể tìm thấy tất cả những gì mình cần để bắt đầu, tiếp nối và hoàn thiện hành trình chinh phục tri thức - chinh phục thế giới - của riêng mình."
+    },
+    "mission": {
+      "title": "Sứ mệnh",
+      "details": {
+        "understanding": {
+          "title": "Thấu hiểu",
+          "description": "Lắng nghe và thấu hiểu những khó khăn của học viên trên hành trình chinh phục tri thức."
+        },
+        "companionship": {
+          "title": "Đồng hành",
+          "description": "Luôn bên cạnh, hỗ trợ và dẫn dắt để cùng học viên biến thử thách thành cơ hội."
+        },
+        "connection": {
+          "title": "Kết nối",
+          "description": "Là cầu nối vững chắc giữa học viên và gia sư."
+        },
+        "spreading": {
+          "title": "Lan tỏa",
+          "description": "Truyền cảm hứng và xây dựng một cộng đồng tri thức rộng khắp."
+        }
+      }
+    }
   },
   "detailed_guide_students": {
     "title": "Lời khuyên và hướng dẫn dành cho học viên",

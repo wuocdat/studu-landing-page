@@ -161,6 +161,34 @@
   "about_us": {
     "title": "Bringing Vietnamese Knowledge<br>to the Global Stage</br>",
     "subtitle": "STUTU is not the destination. STUTU is the beginning of a long journey.",
-    "join_with_us": "Join us"
+    "join_with_us": "Join Us",
+    "stutu_story": "STUTU's Story",
+    "stutu_story_content_1": "A second language is not just a tool; it is a gateway to new opportunities—from securing a place at a dream university to studying and working globally. However, mastering a language is not always an easy journey. STUTU understands that what learners truly need is not just a method but a companion—a teacher, a friend, someone who has faced the same challenges before.",
+    "stutu_story_content_2": "We believe that with the right support at the right time, learners can overcome any challenge. More importantly, no one can choose the right companion for you better than yourself. STUTU empowers learners with the autonomy to search for, select, and connect with their ideal teacher, transforming the learning journey into an inspiring experience.",
+    "vision": {
+      "title": "Vision",
+      "description": "With a pioneering aspiration to revolutionize traditional teaching and learning methods, STUTU aims to build a 'Home School' ecosystem where learners can find everything they need to start, connect, and complete their journey of knowledge acquisition—conquering the world in their own way."
+    },
+    "mission": {
+      "title": "Mission",
+      "details": {
+        "understanding": {
+          "title": "Understanding",
+          "description": "Listening to and understanding the challenges learners face on their journey to knowledge."
+        },
+        "companionship": {
+          "title": "Companionship",
+          "description": "Always by the learner’s side, supporting and guiding them to turn challenges into opportunities."
+        },
+        "connection": {
+          "title": "Connection",
+          "description": "Serving as a strong bridge between learners and tutors."
+        },
+        "spreading": {
+          "title": "Spreading",
+          "description": "Inspiring and building a vast knowledge-sharing community."
+        }
+      }
+    }
   }
 }
