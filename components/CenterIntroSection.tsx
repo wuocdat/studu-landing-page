@@ -7,9 +7,15 @@ interface CenterIntroSectionProps {
   title: ReactNode;
   subtitle: string;
   image?: string;
+  skipImage?: boolean;
 }
 
-export default function CenterIntroSection({ title, image, subtitle }: CenterIntroSectionProps) {
+export default function CenterIntroSection({
+  title,
+  image,
+  subtitle,
+  skipImage,
+}: CenterIntroSectionProps) {
   return (
     <Stack align="center">
       <Text ta="center" lh="100%" fz={64} fw={900}>
@@ -18,7 +24,9 @@ export default function CenterIntroSection({ title, image, subtitle }: CenterInt
       <Text fz={24} fw={400} fs="italic">
         {subtitle}
       </Text>
-      <Image component={NextImage} maw={600} src={image || bear} alt="user_guide" fit="cover" />
+      {!skipImage && (
+        <Image component={NextImage} maw={600} src={image || bear} alt="user_guide" fit="cover" />
+      )}
     </Stack>
   );
 }

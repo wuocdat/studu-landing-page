@@ -157,5 +157,10 @@
         "md_content": "Follow these steps to change your STUTU account password:\n\n**Step 1:** Go to “Settings”\n\n**Step 2:** Click on “Password”\n\n**Step 3:** Enter your current password\n\n**Step 4:** Enter a new password and confirm it\n\n**Step 5:** Click “Save Changes”"
       }
     }
+  },
+  "about_us": {
+    "title": "Bringing Vietnamese Knowledge<br>to the Global Stage</br>",
+    "subtitle": "STUTU is not the destination. STUTU is the beginning of a long journey.",
+    "join_with_us": "Join us"
   }
 }

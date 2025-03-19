@@ -22,7 +22,7 @@ const IntroductionSection = () => {
             pos="absolute"
             bottom={0}
             right={0}
-            href="#features"
+            href="/about"
             mt={20}
             underline="always"
             fs="italic"
