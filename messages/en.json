@@ -156,6 +156,17 @@
         "title": "Changing Password",
         "md_content": "Follow these steps to change your STUTU account password:\n\n**Step 1:** Go to “Settings”\n\n**Step 2:** Click on “Password”\n\n**Step 3:** Enter your current password\n\n**Step 4:** Enter a new password and confirm it\n\n**Step 5:** Click “Save Changes”"
       }
+    },
+    "tutor_selection": {
+      "title": "Choosing the Right Tutor",
+      "search_tutor": {
+        "title": "Find a Tutor",
+        "md_content": "**Step 1:** Click on the “Find a Tutor” button on the homepage of the website.\n\n**Step 2:** Use the filtering tool to find tutors that match your criteria, including:\n- **Language:** Choose the language you want. Example: English.\n- **Subjects:** Select subjects corresponding to the chosen language. You can choose more than one subject. Example: IELTS, TOEIC, SAT.\n- **Tuition Range:** Set the price range you are willing to pay per hour for tutoring. Example: 200,000 - 500,000.\n- **Availability:** Choose the time slots that fit your schedule. You can select multiple time slots. Example: Anytime.\n- **Skills to Improve:** Select the skills you want the tutor to focus on. You can choose multiple skills. Example: Listening, Speaking.\n- **Tutor Badges:** Filter tutors based on badges. Example: STUTutor.\n\n**Step 3:** Once the results appear, you can use the “Sort” tool to customize the list according to your preferences.\n\n*If you have difficulty finding a suitable tutor, feel free to message the STUTU Customer Support team, and we will help you find the best companion for your learning journey.*"
+      },
+      "report_block_tutor": {
+        "title": "Report / Block Tutor",
+        "md_content": "During your learning experience, if you encounter any issues with a tutor, such as:\n- The tutor engages in inappropriate behavior (harassment, insults, discrimination, etc.).\n- The tutor disrespects students or violates the code of conduct.\n- The tutor requests payments outside the STUTU platform.\n- The tutor provides false information or engages in fraudulent activities.\n- The tutor arrives late to lessons.\n- The tutor is absent without reason or without a valid excuse.\n- The tutor experiences frequent technical issues during lessons.\n\nYou can use the block or report features to protect your rights."
+      }
     }
   },
   "about_us": {

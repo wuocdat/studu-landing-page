@@ -31,6 +31,19 @@ export default function StudentGuidePage() {
         },
       ],
     },
+    {
+      title: t('tutor_selection.title'),
+      items: [
+        {
+          title: t('tutor_selection.search_tutor.title'),
+          contentMd: t('tutor_selection.search_tutor.md_content'),
+        },
+        {
+          title: t('tutor_selection.report_block_tutor.title'),
+          contentMd: t('tutor_selection.report_block_tutor.md_content'),
+        },
+      ],
+    },
   ];
 
   return (

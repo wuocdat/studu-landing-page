@@ -25,7 +25,7 @@ export default function GuideBook({ guides }: GuideBookProps) {
   const t = useTranslations('general_information');
 
   return (
-    <Stack>
+    <Stack gap="xl">
       {guides.map((guide, index) => (
         <Stack key={index} gap={0}>
           <Text pl="md" fz={30} fw={800}>

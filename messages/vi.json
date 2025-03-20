@@ -157,6 +157,17 @@
         "title": "Thay đổi mật khẩu",
         "md_content": "Sau đây là các bước để bạn có thể đổi mật khẩu cho tài khoản trên STUTU:\n\n**Bước 1:** Vào phần “Cài đặt”\n\n**Bước 2:** Click vào phần “Mật khẩu”\n\n**Bước 3:** Điền mật khẩu hiện tại\n\n**Bước 4:** Điền mật khẩu mới và xác nhận lại mật khẩu lần 2\n\n**Bước 5:** Click vào “Lưu thay đổi”"
       }
+    },
+    "tutor_selection": {
+      "title": "Lựa chọn gia sư phù hợp",
+      "search_tutor": {
+        "title": "Tìm kiếm gia sư",
+        "md_content": "**Bước 1:** Ấn vào nút “Tìm kiếm gia sư” tại trang chủ của Website.\n\n**Bước 2:** Sử dụng công cụ lọc để tìm các gia sư phù hợp với tiêu chí của bạn. Bao gồm:\n- **Ngôn ngữ:** Lựa chọn ngôn ngữ mà bạn muốn. Ví dụ: Tiếng Anh\n- **Môn học:** Lựa chọn môn học tương ứng với Ngôn ngữ đã chọn. Bạn có thể lựa chọn nhiều hơn một môn học. Ví dụ: IELTS, TOEIC, SAT.\n- **Khoảng học phí:** Giới hạn mức giá bạn sẵn sàng chi trả cho mỗi giờ học với gia sư. Ví dụ: 200,000 - 500,000.\n- **Lịch trống:** Lựa chọn các lịch rảnh phù hợp với bạn. Bạn có thể lựa chọn nhiều hơn một khoảng thời gian. Ví dụ: Tất cả mọi lúc.\n- **Kỹ năng cần cải thiện:** Lựa chọn kỹ năng mà bạn muốn gia sư tập trung vào nhất. Bạn có thể lựa chọn nhiều hơn một kỹ năng. Ví dụ: Nghe, Nói.\n- **Huy hiệu gia sư:** Giới hạn gia sư theo huy hiệu. Ví dụ: STUTutor.\n\n**Bước 3:** Sau khi danh sách kết quả hiện ra, bạn có thể sử dụng công cụ “Sắp xếp” để tùy chỉnh danh sách theo ý muốn.\n\n*Trong trường hợp bạn gặp khó khăn trong việc tìm kiếm một gia sư phù hợp, hãy nhắn tin trực tiếp cho đội ngũ Chăm sóc khách hàng của STUTU và chúng mình sẽ giúp bạn tìm được một người đồng hành ưng ý nhất.*"
+      },
+      "report_block_tutor": {
+        "title": "Báo cáo / Chặn gia sư",
+        "md_content": "Trong quá trình học tập, nếu bạn gặp phải bất kì vấn đề nào với gia sư như:\n- Gia sư có hành vi không phù hợp (quấy rối, xúc phạm, phân biệt đối xử, v.v.).\n- Gia sư không tôn trọng học viên hoặc vi phạm quy tắc ứng xử.\n- Gia sư yêu cầu thanh toán ngoài nền tảng STUTU.\n- Gia sư cung cấp thông tin sai lệch hoặc có hành vi gian lận.\n- Gia sư vào dạy muộn.\n- Gia sư vắng mặt không lý do hoặc lý do không chính đáng.\n- Gia sư gặp vấn đề kỹ thuật trong buổi học nhiều lần.\n\nBạn có thể sử dụng các tính năng chặn hoặc báo cáo gia sư để bảo vệ quyền lợi của mình."
+      }
     }
   },
   "about_us": {
