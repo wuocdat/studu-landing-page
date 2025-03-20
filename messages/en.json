@@ -167,6 +167,78 @@
         "title": "Report / Block Tutor",
         "md_content": "During your learning experience, if you encounter any issues with a tutor, such as:\n- The tutor engages in inappropriate behavior (harassment, insults, discrimination, etc.).\n- The tutor disrespects students or violates the code of conduct.\n- The tutor requests payments outside the STUTU platform.\n- The tutor provides false information or engages in fraudulent activities.\n- The tutor arrives late to lessons.\n- The tutor is absent without reason or without a valid excuse.\n- The tutor experiences frequent technical issues during lessons.\n\nYou can use the block or report features to protect your rights."
       }
+    },
+    "trial_session_info": {
+      "title": "Things You Need to Know About the Trial Session",
+      "session_content": {
+        "title": "Content of the Trial Session",
+        "md_content": "A trial session lasts between 25 - 50 minutes. Based on your preferences, the tutor will design the session content to best suit your needs. This session typically includes the following:\n\n- Introducing yourself and getting to know the tutor better.\n- Sharing your learning goals, learning style, and expectations from the tutor.\n- The tutor will assess your language proficiency level. Based on your input, the tutor will guide you in creating the most suitable learning plan for the future."
+      },
+      "free_and_paid_sessions": {
+        "title": "Free and Paid Trial Sessions",
+        "md_content": "Each student receives 2 free trial sessions after completing their profile update on the platform. STUTU will only charge a small fee starting from the third trial session.\n\n*For paid trial sessions, if you are not satisfied with the session, you can contact STUTU and provide feedback. We will review the situation and either refund your session fee or offer you a completely free trial session with another tutor (at any fee level)!*"
+      },
+      "booking_guide": {
+        "title": "How to Book a Trial Session",
+        "md_content": "**Step 1**: Once you find a suitable tutor, click on the “Book a Trial Session” button.\n\n**Step 2**: Choose the date and time slot that best fits your schedule.\n\n**Step 3**: Select your specific learning goals (This helps the tutor understand you better and makes the trial session more effective!).\n\n**Step 4**: Complete the payment for the trial session via bank transfer.\n\n*Note: Step 4 only appears if you have used up all your free trial sessions.*"
+      },
+      "unwanted_situations": {
+        "title": "Unwanted Situations",
+        "md_content": "During the trial session booking process, some unwanted situations may occur, such as the tutor declining to teach a trial session or being absent without prior notice. In these cases, STUTU encourages you to follow the suggested solutions we provide here and immediately contact STUTU’s customer support team to find the best resolution."
+      }
+    },
+    "official_course_info": {
+      "title": "Things You Need to Know About the Official Course Package",
+      "course_registration": {
+        "title": "Registering for the Official Course Package",
+        "md_content": "**Step 1:** Select the basic information of the course package.\n\n**Step 2:** Arrange your class schedule based on the tutor's availability. You can choose a recurring schedule or a one-time session.\n\n**Step 3:** Confirm the details of your selected course package.\n\n**Step 4:** Wait for the tutor to confirm whether they can meet your course requirements.\n\n**Step 5:** Proceed with the payment and start learning right away.\n\n*Note: You must schedule all your sessions in **Step 2** before proceeding.*"
+      },
+      "single_lesson_purchase": {
+        "title": "Purchasing Individual Lessons",
+        "md_content": "STUTU understands that language learning requires commitment and long-term stability. Therefore, we currently offer course packages ranging from 8 to 20 sessions with varying durations to ensure learning continuity. You may want to purchase individual lessons to experience different tutors' teaching styles. This is a feature STUTU is considering and plans to introduce in the near future."
+      },
+      "class_entry": {
+        "title": "Joining a Class",
+        "md_content": "When you log into the platform as a student, you will find notifications about your next class on the **Home Page**. All you need to do is select \"Join Class Now\".\n\n*Note: Some tutors have back-to-back classes. To ensure that previous sessions are not interrupted, your class will open 30 minutes before the scheduled time.*"
+      },
+      "schedule_management": {
+        "title": "Managing Your Schedule",
+        "md_content": "**Step 1:** Go to Learning Journey → Schedule & Courses → Course Packages → Ongoing Courses.\n\n**Step 2:** Select the session you want to reschedule, click “Reschedule,” and choose a new time.\n\n**Step 3:** Click “Send Request” and wait for the tutor’s confirmation.\n\n- *STUTU encourages you to message the tutor in advance to agree on a new time, helping them confirm quickly and avoid learning disruptions.*\n- Tutors may accept or decline your reschedule request depending on their availability. Therefore, submit your request as early as possible!\n- *If your request is denied or not responded to within 24 hours, the session will proceed as originally scheduled.*"
+      },
+      "post_class_actions": {
+        "title": "Post-Class Actions",
+        "md_content": "If the session went well, simply click \"Confirm.\" The session will then be marked as \"Confirmed\" and counted as a successful lesson. You can also rate the session's quality—don’t forget to leave some positive feedback to encourage your tutor!\n\nIf you encounter any **unexpected issues**, please report them to STUTU immediately by selecting \"Report\"."
+      },
+      "unwanted_situations": {
+        "title": "Unwanted Situations",
+        "md_content": "During the official course package, some unwanted situations may occur, such as the tutor suddenly losing contact or you accidentally missing a session. In these cases, STUTU encourages you to follow our suggested solutions and contact STUTU’s customer support team immediately to find the best resolution."
+      },
+      "course_cancellation": {
+        "title": "Canceling a Course Package",
+        "md_content": "If you encounter an unexpected issue, STUTU encourages you to discuss it with your tutor and STUTU to find the best solution. However, if you still wish to cancel your registered course package, follow these steps:\n\n- **Go to Learning Journey → Schedule & Courses → Course Packages → Ongoing Courses**\n- **Select the package you wish to cancel and click 'Cancel Package'.**\n- **Provide a reason for cancellation and submit your request.**\n- **Wait for confirmation from the STUTU team within 48 hours.**\n\nOnce approved, you will receive a voucher in your account. You can check your vouchers in the **'Account Information' → 'Vouchers'** section."
+      }
+    },
+    "tuition_and_payment": {
+      "title": "Tuition and Payment Issues",
+      "payment_methods": {
+        "title": "Payment Methods",
+        "md_content": "When registering for a course, STUTU provides a QR code and bank transfer details along with a payment code.\nSimply scan the QR code or make a transfer using the provided information, ensuring you enter the payment code correctly in the transaction details.\nOnce the payment is successfully processed, the system will automatically confirm and activate your course.\n\n- *Please carefully check the **transaction details** before making a transfer to avoid any errors.*\n- *If you need assistance or encounter any issues during the payment process, please contact STUTU immediately.*"
+      },
+      "tuition_refund": {
+        "title": "Tuition Refund",
+        "md_content": "A tuition refund may be issued if a student cancels their registered official course package on the platform.\nRefunds will only be processed if the student has canceled the official course package and submitted a refund request.\nTo be eligible for a refund, the student must provide sufficient evidence proving that they are unable to complete the registered course due to an issue caused by the platform.\nThe decision to issue a refund is solely at STUTU's discretion and is final.\nThe refunded amount will not exceed the value of the remaining sessions in the registered course package.\n\n*If a student cancels their registered official course package without requesting a refund, STUTU will provide them with a voucher equal to the value of the remaining sessions in the package.*"
+      }
+    },
+    "other_programs": {
+      "title": "Other Programs",
+      "referral_program": {
+        "title": "Referral Program",
+        "md_content": "**The 'Referral Program'** allows you to refer friends and family to enroll in courses and earn **UNLIMITED** rewards from STUTU.\n\n**Step 1:** Go to the 'Referral Program' section and get your referral code.\n\n**Step 2:** Share it with others.\n\n**Step 3:** The referred person registers for a course package (remind them to enter your referral code!).\n\n**Step 4:** Track your earnings.\n\n**Step 5:** Accumulate your earnings like a savings account.\n\n**Step 6:** Request a withdrawal when needed."
+      },
+      "premium_tutoring": {
+        "title": "Premium Tutoring Program",
+        "md_content": "The **'Premium Tutoring'** program is designed for **executives, senior business leaders, and students with special requirements.** This program helps you find the most suitable tutor quickly, with a fully personalized learning plan, in-person learning at a location of your choice, and a flexible study schedule tailored to your availability.\n\nTo register for the premium tutoring program, visit [here] and submit your specific requirements so that the STUTU team can better understand your needs. Based on your requests, STUTU will select the most suitable tutor and get back to you within 24 hours of receiving your submission."
+      }
     }
   },
   "about_us": {

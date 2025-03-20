@@ -168,6 +168,78 @@
         "title": "Báo cáo / Chặn gia sư",
         "md_content": "Trong quá trình học tập, nếu bạn gặp phải bất kì vấn đề nào với gia sư như:\n- Gia sư có hành vi không phù hợp (quấy rối, xúc phạm, phân biệt đối xử, v.v.).\n- Gia sư không tôn trọng học viên hoặc vi phạm quy tắc ứng xử.\n- Gia sư yêu cầu thanh toán ngoài nền tảng STUTU.\n- Gia sư cung cấp thông tin sai lệch hoặc có hành vi gian lận.\n- Gia sư vào dạy muộn.\n- Gia sư vắng mặt không lý do hoặc lý do không chính đáng.\n- Gia sư gặp vấn đề kỹ thuật trong buổi học nhiều lần.\n\nBạn có thể sử dụng các tính năng chặn hoặc báo cáo gia sư để bảo vệ quyền lợi của mình."
       }
+    },
+    "trial_session_info": {
+      "title": "Những điều bạn cần biết về buổi học thử",
+      "session_content": {
+        "title": "Nội dung của buổi học thử",
+        "md_content": "Một buổi học thử sẽ kéo dài 25 - 50 phút, và dựa trên mong muốn của bạn, gia sư sẽ thiết kế nội dung buổi học thử phù hợp nhất. Buổi học này thường sẽ bao gồm một vài nội dung sau:\n\n- Giới thiệu bản thân và hiểu hơn về gia sư.\n- Chia sẻ mục tiêu, phong cách học của bản thân cũng như những kỳ vọng của bản thân đối với gia sư.\n- Gia sư sẽ hỗ trợ kiểm tra khả năng ngôn ngữ của bạn đang ở đâu. Dựa vào những điều bạn chia sẻ, gia sư sẽ định hướng cho bạn một lộ trình học tập phù hợp nhất trong thời gian tiếp theo."
+      },
+      "free_and_paid_sessions": {
+        "title": "Buổi học thử miễn phí và buổi học thử trả phí",
+        "md_content": "Mỗi học viên sẽ có 02 buổi học thử miễn phí sau khi hoàn thành việc cập nhật hồ sơ trên nền tảng. STUTU sẽ chỉ thu một khoản phí nhỏ khi bạn có buổi học thử thứ ba trở đi.\n\n*Đối với những buổi học thử có thu phí, nếu bạn không hài lòng với buổi học, bạn có thể liên hệ với STUTU và phản ánh thông tin. Chúng mình sẽ cân nhắc tình huống và hoàn lại học phí hoặc hỗ trợ bạn học thử với một gia sư khác (mức học phí bất kì) hoàn toàn miễn phí!*"
+      },
+      "booking_guide": {
+        "title": "Hướng dẫn đặt lịch học thử",
+        "md_content": "**Bước 1**: Sau khi tìm được gia sư phù hợp, click vào ô “đặt lịch học thử”.\n\n**Bước 2**: Lựa chọn ngày và khung giờ học phù hợp nhất với bạn.\n\n**Bước 3**: Lựa chọn mục tiêu học tập cụ thể (Điều này sẽ giúp gia sư hiểu hơn về bạn và khiến buổi học thử trở nên hiệu quả hơn đó!).\n\n**Bước 4**: Thanh toán cho buổi học thử bằng các phương thức chuyển khoản ngân hàng.\n\n*Lưu ý: Bước 4 chỉ xuất hiện nếu như bạn đã sử dụng hết số buổi học thử miễn phí.*"
+      },
+      "unwanted_situations": {
+        "title": "Các tình huống không mong muốn",
+        "md_content": "Trong quá trình đặt lịch học thử, có một vài tình huống không mong muốn có thể diễn ra như gia sư từ chối dạy thử hay gia sư vắng mặt trong buổi dạy thử mà không báo trước. Trong các trường hợp này, STUTU khuyến khích bạn áp dụng một số cách mà chúng mình gợi ý tại đây và liên lạc ngay với đội ngũ chăm sóc khách hàng của STUTU để tìm phương án giải quyết phù hợp nhất nhé. "
+      }
+    },
+    "official_course_info": {
+      "title": "Những điều bạn cần biết về gói học chính thức",
+      "course_registration": {
+        "title": "Đăng ký gói học chính thức",
+        "md_content": "**Bước 1:** Lựa chọn các thông tin cơ bản của gói học.\n\n**Bước 2:** Sắp xếp lịch học dựa trên lịch làm việc hiện tại của gia sư. Bạn có thể lựa chọn sắp xếp lịch lặp lại hoặc một lần.\n\n**Bước 3:** Xác nhận các thông tin của gói học bạn vừa đăng ký.\n\n**Bước 4:** Chờ một chút để gia sư xác nhận có thể đáp ứng các yêu cầu của bạn đối với gói học chính.\n\n**Bước 5:** Tiến hành thanh toán và ngồi vào bàn học ngay thôi nào.\n\n*Lưu ý: Bạn cần phải xếp lịch cho tất cả các buổi học trong **Bước 2** trước khi có thể tiếp tục.*"
+      },
+      "single_lesson_purchase": {
+        "title": "Mua lẻ từng buổi học",
+        "md_content": "STUTU hiểu rằng việc học ngôn ngữ đòi hỏi một mức độ cam kết và sự ổn định trong lâu dài vì thế hiện tại STUTU đang cung cấp các tuỳ chọn số buổi từ 8 đến 20 với thời lượng khác nhau để đảm bảo tính liên tục trong quá trình học tập. Có thể bạn sẽ muốn mua lẻ từng buổi học và trải nghiệm phong cách giảng dạy của nhiều gia sư khác nhau. Đây là tính năng STUTU sẽ tiếp tục cân nhắc và mang tới các bạn trong một ngày gần nhất."
+      },
+      "class_entry": {
+        "title": "Vào lớp học",
+        "md_content": "Khi truy cập vào nền tảng với tư cách là học viên, bạn có thể tìm thấy thông báo về buổi học tiếp theo ngay trong **Trang chủ**. Tất cả những gì bạn cần làm là chọn \"Vào lớp ngay\".\n\n*Lưu ý: Một số gia sư có các buổi học rất sát nhau. Để đảm bảo các lớp học trước không bị gián đoạn, lớp học của bạn sẽ được mở 30 phút trước giờ học.*"
+      },
+      "schedule_management": {
+        "title": "Quản lý lịch học",
+        "md_content": "**Bước 1:** Truy cập vào Hành trình học tập → Lịch học & gói học → Gói học → Gói học đang diễn ra.\n\n**Bước 2:** Chọn buổi học bạn muốn lùi, nhấn vào “Đổi lịch”, sau đó chọn thời gian học mới.\n\n**Bước 3:** Ấn “Gửi yêu cầu” và chờ gia sư xác nhận.\n\n- *STUTU khuyến khích bạn nhắn tin trao đổi với gia sư trước để thống nhất thời gian mới, giúp gia sư xác nhận nhanh chóng và tránh gián đoạn việc học.*\n- Gia sư có thể chấp nhận hoặc từ chối yêu cầu lùi lịch, tùy vào lịch trình của họ. Vì vậy, bạn hãy gửi yêu cầu càng sớm càng tốt nhé!\n- *Nếu yêu cầu bị từ chối hoặc không được phản hồi trong vòng 24 giờ, buổi học vẫn sẽ diễn ra theo lịch cũ.*"
+      },
+      "post_class_actions": {
+        "title": "Thao tác sau buổi học",
+        "md_content": "Nếu buổi học diễn ra suôn sẻ, bạn chỉ cần nhấn \"Xác nhận\". Khi đó, buổi học sẽ chuyển sang trạng thái \"Đã xác nhận\" và được tính là một buổi học thành công. Bạn cũng có thể đánh ngay chất lượng của buổi học đó và đừng quên để lại một chút đánh giá tích cực để tạo động lực cho gia sư của chúng mình nhé.\n\nNếu như bạn gặp phải bất kỳ **Vấn đề không mong muốn** nào, hãy cho STUTU biết bằng cách \"Báo cáo\" ngay nhé."
+      },
+      "unwanted_situations": {
+        "title": "Các tình huống không mong muốn",
+        "md_content": "Trong quá trình học theo lộ trình của gói học chính đã đăng ký, có một vài tình huống không mong muốn có thể diễn ra như gia sư đột ngột mất liên lạc hay bạn lỡ quên buổi học. Trong các trường hợp này, STUTU khuyến khích bạn áp dụng một số cách mà chúng mình gợi ý tại đây và liên lạc ngay với đội ngũ chăm sóc khách hàng của STUTU để tìm phương án giải quyết phù hợp nhất nhé."
+      },
+      "course_cancellation": {
+        "title": "Hủy đăng ký gói học",
+        "md_content": "Khi gặp phải các tình huống không mong muốn, STUTU khuyến khích bạn trao đổi với gia sư và với STUTU để tìm ra phương án giải quyết phù hợp nhất. Tuy nhiên, nếu bạn vẫn muốn hủy gói học đã đăng ký, bạn có thể tiến hành theo các bước sau:\n\n- Truy cập vào Hành trình học tập → Lịch học & gói học → Gói học → Gói học đang diễn ra\n- Chọn gói học cần hủy và ấn chọn 'Hủy gói'.\n- Điền lý do hủy gói và gửi yêu cầu.\n- Đợi xác nhận từ đội ngũ STUTU trong vòng 48 giờ.\n\nKhi yêu cầu được duyệt, bạn sẽ nhận được voucher trong tài khoản. Bạn có thể kiểm tra voucher trong mục **“Thông tin tài khoản” → “Voucher”** nhé."
+      }
+    },
+    "tuition_and_payment": {
+      "title": "Các vấn đề về học phí và thanh toán",
+      "payment_methods": {
+        "title": "Phương thức thanh toán",
+        "md_content": "Khi đăng ký một khóa học, STUTU cung cấp mã QR và thông tin chuyển khoản kèm theo mã thanh toán.\nBạn chỉ cần quét mã QR hoặc chuyển khoản theo thông tin hiển thị, nhập chính xác mã thanh toán vào nội dung chuyển khoản.\nSau khi thanh toán thành công, hệ thống sẽ tự động xác nhận và kích hoạt khóa học cho bạn.\n\n- *Bạn nhớ kiểm tra kỹ **thông tin giao dịch** trước khi chuyển khoản để tránh sai sót*\n- *Nếu cần hỗ trợ hoặc có bất kỳ vấn đề gì trong quá trình thanh toán, hãy liên hệ ngay với STUTU nhé.*"
+      },
+      "tuition_refund": {
+        "title": "Hoàn lại học phí",
+        "md_content": "Việc hoàn lại học phí có thể diễn ra khi học viên hủy gói học chính đã đăng ký trước đó trên nền tảng.\nViệc hoàn lại học phí chỉ được thực hiện khi học viên đã hủy gói học chính và có yêu cầu hoàn lại học phí.\nĐể được hoàn lại học phí, học viên cần cung cấp đầy đủ bằng chứng chứng minh rằng học viên không thể hoàn thành gói học chính đã đăng ký do lỗi thuộc về nền tảng.\nQuyết định hoàn lại học phí do STUTU đưa ra và là quyết định cuối cùng.\nGiá trị của học phí được hoàn lại không lớn hơn giá trị của các buổi học còn lại trong gói học chính đã đăng ký trước đó.\n\n*Trong trường hợp học viên hủy gói học chính đã đăng ký trước đó mà không có yêu cầu hoàn lại học phí, STUTU sẽ cung cấp cho học viên voucher với giá trị bằng với giá trị của các buổi học còn lại trong gói học chính đã đăng ký trước đó.*"
+      }
+    },
+    "other_programs": {
+      "title": "Các chương trình khác",
+      "referral_program": {
+        "title": "Chương trình giới thiệu",
+        "md_content": "**“Chương trình giới thiệu”** là nơi bạn có thể giới thiệu người thân và bạn bè đăng ký học và nhận ngay nhập **KHÔNG GIỚI HẠN** từ STUTU.\n\n**Bước 1:** Truy cập vào “Chương trình giới thiệu” và nhận mã giới thiệu của bạn.\n\n**Bước 2:** Giới thiệu cho mọi người.\n\n**Bước 3:** Người được giới thiệu đăng ký gói học (đừng quên nhắc họ điền mã giới thiệu của bạn nhé).\n\n**Bước 4:** Kiểm tra thu nhập của bạn.\n\n**Bước 5:** Tích lũy thu nhập của bạn như một khoản tiết kiệm.\n\n**Bước 6:** Yêu cầu rút ra khi cần."
+      },
+      "premium_tutoring": {
+        "title": "Chương trình “Premium tutoring”",
+        "md_content": "Chương trình “Premium tutoring” áp dụng cho khách hàng là **Giám đốc, lãnh đạo cấp cao của doanh nghiệp và học viên có yêu cầu đặc biệt.** Chương trình giúp bạn tìm được gia sư phù hợp một cách nhanh chóng nhất với lộ trình học cá nhân hoá tối ưu, phương thức học trực tiếp với địa điểm do bạn lựa chọn và lộ trình học linh hoạt phù hợp với lịch trình của bạn.\n\nĐể đăng ký chương trình premium tutoring, bạn có thể truy cập Tại đây và điền các yêu cầu cụ thể của mình để đội ngũ STUTU có thể hiểu rõ mong muốn của bạn. Dựa vào các yêu cầu mà bạn đưa ra, STUTU sẽ lựa chọn ra gia sư phù hợp nhất và liên hệ lại với bạn trong vòng 24 giờ kể từ thời điểm bạn gửi yêu cầu."
+      }
     }
   },
   "about_us": {
