@@ -1,6 +1,7 @@
 'use client';
 
 import NextImage from 'next/image';
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Box, Button, Image, Stack, Text } from '@mantine/core';
 import bgImage from '@/public/images/hero_bg.svg';
@@ -17,7 +18,7 @@ const HeroSection = () => {
         <Text fw={200} fz={40} fs="italic">
           {t('subTitle')}
         </Text>
-        <Button variant="filled" size="xl" mt={40}>
+        <Button component={Link} href="/welcome" variant="filled" size="xl" mt={40}>
           {t('startNow')}
         </Button>
       </Stack>

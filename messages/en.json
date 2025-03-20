@@ -190,5 +190,9 @@
         }
       }
     }
+  },
+  "welcome": {
+    "learner": "I am a learner",
+    "tutor": "I am a tutor"
   }
 }

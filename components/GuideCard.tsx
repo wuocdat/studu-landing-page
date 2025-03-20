@@ -1,8 +1,6 @@
-'use client';
-
 import NextImage from 'next/image';
 import Link from 'next/link';
-import { Button, Card, Image } from '@mantine/core';
+import { Button, Card, CardSection, Image } from '@mantine/core';
 import classes from './styles/GuideCard.module.css';
 
 interface GuideCardProps {
@@ -15,9 +13,9 @@ interface GuideCardProps {
 export default function ({ image, text, href, onClick }: GuideCardProps) {
   return (
     <Card shadow="md" miw={300} withBorder py="xl" radius={10} classNames={{ root: classes.root }}>
-      <Card.Section>
+      <CardSection>
         <Image component={NextImage} h={132} src={image} alt="tutor guide" fit="contain" />
-      </Card.Section>
+      </CardSection>
       <Button
         component={Link}
         href={href}
