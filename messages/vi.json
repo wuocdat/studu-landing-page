@@ -242,6 +242,118 @@
       }
     }
   },
+  "tutor_guide": {
+    "title": "Gia sư hỏi <br>STUTU trả lời</br>",
+    "subtitle": "Tất tần tật để trở thành gia sư STUTU",
+    "initial_steps": {
+      "title": "Các bước ban đầu",
+      "registration_process": {
+        "title": "Quy trình đăng ký",
+        "md_content": ""
+      },
+      "avatar_guidelines": {
+        "title": "Lưu ý về ảnh đại diện",
+        "md_content": ""
+      },
+      "intro_video_guidelines": {
+        "title": "Lưu ý về video giới thiệu",
+        "md_content": ""
+      },
+      "self_introduction_tips": {
+        "title": "Lưu ý về “Giới thiệu bản thân”",
+        "md_content": ""
+      },
+      "info_verification_guide": {
+        "title": "Hướng dẫn xác thực thông tin",
+        "md_content": ""
+      },
+      "tuition_notes": {
+        "title": "Lưu ý về học phí",
+        "md_content": ""
+      },
+      "tutor_status": {
+        "title": "Các trạng thái hồ sơ gia sư",
+        "md_content": ""
+      },
+      "tutor_regulations": {
+        "title": "Quy định dành cho gia sư",
+        "md_content": ""
+      },
+      "student_reporting": {
+        "title": "Báo cáo / Chặn học viên",
+        "md_content": ""
+      }
+    },
+    "personal_schedule_management": {
+      "title": "Quản lý lịch cá nhân",
+      "setup_work_schedule": {
+        "title": "Thiết lập lịch làm việc của bạn",
+        "md_content": ""
+      },
+      "urgent_trial_booking": {
+        "title": "Học viên đặt lịch học thử quá gấp",
+        "md_content": ""
+      }
+    },
+    "class_management": {
+      "title": "Quản lý buổi học",
+      "registration_confirmation": {
+        "title": "Xác nhận đăng ký học",
+        "md_content": ""
+      },
+      "class_link_provision": {
+        "title": "Cung cấp link lớp học",
+        "md_content": ""
+      },
+      "class_rescheduling": {
+        "title": "Đổi lịch buổi học",
+        "md_content": ""
+      },
+      "post_class_actions": {
+        "title": "Các thao tác sau buổi học",
+        "md_content": ""
+      },
+      "unwanted_situations": {
+        "title": "Các tình huống không mong muốn",
+        "md_content": ""
+      }
+    },
+    "profile_management": {
+      "title": "Quản lý hồ sơ",
+      "edit_personal_info": {
+        "title": "Thay đổi thông tin cá nhân",
+        "md_content": ""
+      },
+      "change_password": {
+        "title": "Thay đổi mật khẩu",
+        "md_content": ""
+      },
+      "update_tuition_fee": {
+        "title": "Thay đổi học phí",
+        "md_content": ""
+      },
+      "hide_profile": {
+        "title": "Ẩn hồ sơ",
+        "md_content": ""
+      },
+      "delete_profile": {
+        "title": "Xóa hồ sơ",
+        "md_content": ""
+      },
+      "income_management": {
+        "title": "Quản lý thu nhập",
+        "md_content": ""
+      },
+      "performance_management": {
+        "title": "Quản lý hiệu suất",
+        "md_content": ""
+      },
+      "advice_section": {
+        "title": "Một số lời khuyên",
+        "md_content": ""
+      }
+    }
+  },
   "about_us": {
     "title": "Đưa tri thức Việt<br>vươn tầm thế giới</br>",
     "subtitle": "STUTU không phải là đích đến. STUTU là khởi đầu của một hành trình dài",
