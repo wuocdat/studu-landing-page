@@ -2,7 +2,7 @@
 
 import { IconChevronDown } from '@tabler/icons-react';
 import { useLocale } from 'next-intl';
-import { Group, Menu, Text } from '@mantine/core';
+import { Group, Menu, MenuDropdown, MenuItem, MenuTarget, Text } from '@mantine/core';
 import { usePathname, useRouter } from '@/i18n/navigation';
 
 const LanguageMenu = () => {
@@ -12,18 +12,18 @@ const LanguageMenu = () => {
 
   return (
     <Menu shadow="md" width={200}>
-      <Menu.Target>
+      <MenuTarget>
         <Group gap="sm" style={{ cursor: 'pointer' }}>
           <Text size="xl" fw={600} tt="capitalize">
             {locale}
           </Text>
           <IconChevronDown />
         </Group>
-      </Menu.Target>
-      <Menu.Dropdown>
-        <Menu.Item onClick={() => router.push(pathname, { locale: 'vi' })}>Tiếng Việt</Menu.Item>
-        <Menu.Item onClick={() => router.push(pathname, { locale: 'en' })}>English</Menu.Item>
-      </Menu.Dropdown>
+      </MenuTarget>
+      <MenuDropdown>
+        <MenuItem onClick={() => router.push(pathname, { locale: 'vi' })}>Tiếng Việt</MenuItem>
+        <MenuItem onClick={() => router.push(pathname, { locale: 'en' })}>English</MenuItem>
+      </MenuDropdown>
     </Menu>
   );
 };
