@@ -1,12 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Anchor, Box, Grid, Group, Stack, Text } from '@mantine/core';
-import AIcon from '../icons/AIcon';
-import FacebookIcon from '../icons/FacebookIcon';
-import InstargramIcon from '../icons/InstargramIcon';
-import LinkedInIcon from '../icons/LinkedInIcon';
-import ZaloIcon from '../icons/ZaloIcon';
+import { Anchor, Box, Grid, Group, Image, Stack, Text } from '@mantine/core';
 
 interface FooterLink {
   title: string;
@@ -85,11 +80,11 @@ export function Footer() {
         </Grid.Col>
         <Grid.Col span={4}>
           <Group>
-            <FacebookIcon />
-            <ZaloIcon />
-            <LinkedInIcon />
-            <InstargramIcon />
-            <AIcon />
+            <Image src="/images/facebook.svg" />
+            <Image src="/images/zalo.svg" />
+            <Image src="/images/linked.svg" />
+            <Image src="/images/insta.svg" />
+            <Image src="/images/big_a.svg" />
           </Group>
         </Grid.Col>
         <Grid.Col span="auto">
