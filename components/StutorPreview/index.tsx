@@ -8,7 +8,7 @@ import APP_COLORS from '@/theme/colors';
 import TutorCard from './TutorCard';
 
 const StutorPreview = () => {
-  const autoplay = useRef(Autoplay({ delay: 2000 }));
+  const autoplay = useRef(Autoplay({ delay: 4000 }));
 
   return (
     <Stack bg={APP_COLORS.grayBg} p={50}>
@@ -18,7 +18,7 @@ const StutorPreview = () => {
       </Stack>
 
       <Carousel
-        slideSize={{ base: '100%', sm: '50%', md: '33.333333%' }}
+        slideSize={{ base: '100%', sm: '50%', md: '33.333333%', lg: '25%' }}
         slideGap={{ base: 0, sm: 'md' }}
         loop
         align="start"

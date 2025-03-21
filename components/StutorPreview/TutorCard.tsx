@@ -68,10 +68,10 @@ export default function TutorCard({
         </Text>
       </Group>
 
-      <Button fullWidth mt="md" size="lg">
+      <Button fullWidth h={48} mt="md" size="lg">
         Đăng ký
       </Button>
-      <Button fullWidth mt="xs" variant="outline" size="lg">
+      <Button fullWidth h={48} mt="xs" variant="outline" size="lg">
         Lưu vào yêu thích
       </Button>
       <Anchor mt="md" ta="center" underline="always" fz={16}>
