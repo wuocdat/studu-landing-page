@@ -1,7 +1,20 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Anchor, Box, Grid, Group, Image, Stack, Text } from '@mantine/core';
+import {
+  ActionIcon,
+  Anchor,
+  Box,
+  Divider,
+  Grid,
+  Group,
+  Image,
+  Mark,
+  Space,
+  Stack,
+  Text,
+  Title,
+} from '@mantine/core';
 
 interface FooterLink {
   title: string;
@@ -39,15 +52,15 @@ export function Footer() {
         { label: t('for_tutors.frequently_asked_questions'), link: '#' },
       ],
     },
-    {
-      title: t('platform_policies.title'),
-      links: [
-        { label: t('platform_policies.terms_of_service'), link: '#' },
-        { label: t('platform_policies.payment_policy'), link: '#' },
-        { label: t('platform_policies.code_of_conduct'), link: '#' },
-        { label: t('platform_policies.privacy_policy'), link: '#' },
-      ],
-    },
+    // {
+    //   title: t('platform_policies.title'),
+    //   links: [
+    //     { label: t('platform_policies.terms_of_service'), link: '#' },
+    //     { label: t('platform_policies.payment_policy'), link: '#' },
+    //     { label: t('platform_policies.code_of_conduct'), link: '#' },
+    //     { label: t('platform_policies.privacy_policy'), link: '#' },
+    //   ],
+    // },
   ];
 
   const groups = data.map((group, index) => {
@@ -58,51 +71,144 @@ export function Footer() {
     ));
 
     return (
-      <Grid.Col key={index} span={3} offset={1}>
-        <Stack gap="sm" pb={36}>
-          <Text fw={800} fz={24} style={{ textDecoration: 'underline' }}>
-            {group.title}
-          </Text>
-          {links}
-        </Stack>
-      </Grid.Col>
+      <Stack gap="sm" key={index}>
+        <Text fw={800} fz={24} style={{ textDecoration: 'underline' }}>
+          {group.title}
+        </Text>
+        {links}
+      </Stack>
     );
   });
 
   return (
-    <Box py={50}>
-      <Grid columns={17} w="100%">
-        {groups}
-        <Grid.Col span={4} offset={1}>
-          <Text fz={24} fw={900}>
-            STUTU - Tie to Shine
-          </Text>
-        </Grid.Col>
-        <Grid.Col span={4}>
-          <Group>
+    <Stack px={50} pb={50}>
+      <Group justify="space-between">
+        <Text fz={24} fw={900}>
+          <Mark fw={900} bg="transparent" ff="monospace">
+            STUTU
+          </Mark>{' '}
+          - Tie to Shine
+        </Text>
+        <Group>
+          <ActionIcon
+            size={56}
+            variant="white"
+            radius={13}
+            styles={{
+              root: {
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
+              },
+            }}
+          >
             <Image src="/images/facebook.svg" />
-            <Image src="/images/zalo.svg" />
+          </ActionIcon>
+          <ActionIcon
+            size={56}
+            variant="white"
+            radius={13}
+            styles={{
+              root: {
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
+              },
+            }}
+          >
             <Image src="/images/linked.svg" />
+          </ActionIcon>
+          <ActionIcon
+            size={56}
+            variant="white"
+            radius={13}
+            styles={{
+              root: {
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
+              },
+            }}
+          >
+            <Image src="/images/tiktok.svg" />
+          </ActionIcon>
+          <ActionIcon
+            size={56}
+            variant="white"
+            radius={13}
+            styles={{
+              root: {
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
+              },
+            }}
+          >
+            <Image src="/images/zalo.svg" />
+          </ActionIcon>
+          <ActionIcon
+            size={56}
+            variant="white"
+            radius={13}
+            styles={{
+              root: {
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
+              },
+            }}
+          >
+            <Image src="/images/threas.svg" />
+          </ActionIcon>
+          <ActionIcon
+            size={56}
+            variant="white"
+            radius={13}
+            styles={{
+              root: {
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
+              },
+            }}
+          >
             <Image src="/images/insta.svg" />
-            <Image src="/images/big_a.svg" />
-          </Group>
-        </Grid.Col>
-        <Grid.Col span="auto">
-          <Stack w="fit-content" gap={0}>
-            <Text fz={20} fw={900}>
-              Công ty cổ phần tư vấn và giải pháp giáo dục StudiVerse
-            </Text>
-            <Group justify="space-between">
-              <Text fz={20} fw={900}>
-                Giấy chứng nhận số: ...
-              </Text>
-              <Text fz={20} fw={900}>
-                Ngày cấp: .../.../2025
-              </Text>
-            </Group>
-          </Stack>
-        </Grid.Col>
-      </Grid>
-    </Box>
+          </ActionIcon>
+          <ActionIcon
+            size={56}
+            variant="white"
+            radius={13}
+            styles={{
+              root: {
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px;',
+              },
+            }}
+          >
+            <Image src="/images/tele.svg" />
+          </ActionIcon>
+        </Group>
+      </Group>
+      <Divider />
+      <Group justify="space-between" align="flex-start">
+        {groups}
+      </Group>
+      <Divider />
+      <Group justify="space-between">
+        <Box>
+          <Title order={2}>Công ty Cổ phần Tư vấn và Giải pháp Giáo dục Studiverse</Title>
+          <Text fz={14} fw={400}>
+            Điện thoại liên hệ: 096 969 969
+          </Text>
+          <Text fz={14} fw={400}>
+            Email: team@stutu.com
+          </Text>
+          <Text fz={14} fw={400}>
+            Địa chỉ trụ sở: Số nhà N5 khu D ngõ 57 Láng Hạ, Phường Thành Công, Quận Ba Đình, Thành
+            phố Hà Nội, Việt Nam
+          </Text>
+          <Text fz={14} fw={400}>
+            Giấy chứng nhận Đăng ký doanh nghiệp số: 016969696969 do Sở Kế hoạch và Đầu tư thành phố
+            Hà Nội cấp ngày 17/04/2025
+          </Text>
+        </Box>
+        <Image src="/images/bct.svg" />
+      </Group>
+      <Stack gap={0} align="center" mt="lg">
+        <Text fw={500} fz={14}>
+          STUTU.COM © Bản quyền của Công ty Cổ phần Tư vấn và Giải pháp Giáo dục Studiverse
+        </Text>
+        <Text fz={13} td="underline">
+          Tuyên bố miễn trừ trách nhiệm
+        </Text>
+      </Stack>
+    </Stack>
   );
 }
