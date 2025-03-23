@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel } from '@mantine/carousel';
 import { Avatar, Stack, Text, Title } from '@mantine/core';
-import APP_COLORS from '@/theme/colors';
 
 const mockData = [
   {
@@ -36,7 +35,7 @@ const StutuFeedback = () => {
   const autoplay = useRef(Autoplay({ delay: 2000 }));
 
   return (
-    <Stack bg={APP_COLORS.grayBg} p={50}>
+    <Stack p={50}>
       <Text ta="center" variant="big">
         Học viên nghĩ gì về STUTU
       </Text>

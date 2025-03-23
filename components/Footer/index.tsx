@@ -13,6 +13,7 @@ import {
   Text,
   Title,
 } from '@mantine/core';
+import APP_COLORS from '@/theme/colors';
 
 interface FooterLink {
   title: string;
@@ -79,7 +80,7 @@ export function Footer() {
   });
 
   return (
-    <Stack px={50} pb={50}>
+    <Stack bg={APP_COLORS.grayBg} px={50} py="xl">
       <Group justify="space-between">
         <Text fz={24} fw={900}>
           <Mark fw={900} bg="transparent" ff="monospace">
@@ -182,17 +183,17 @@ export function Footer() {
       <Group justify="space-between">
         <Box>
           <Title order={2}>Công ty Cổ phần Tư vấn và Giải pháp Giáo dục Studiverse</Title>
-          <Text fz={14} fw={400}>
+          <Text fz={14} fw={300}>
             Điện thoại liên hệ: 096 969 969
           </Text>
-          <Text fz={14} fw={400}>
+          <Text fz={14} fw={300}>
             Email: team@stutu.com
           </Text>
-          <Text fz={14} fw={400}>
+          <Text fz={14} fw={300}>
             Địa chỉ trụ sở: Số nhà N5 khu D ngõ 57 Láng Hạ, Phường Thành Công, Quận Ba Đình, Thành
             phố Hà Nội, Việt Nam
           </Text>
-          <Text fz={14} fw={400}>
+          <Text fz={14} fw={300}>
             Giấy chứng nhận Đăng ký doanh nghiệp số: 016969696969 do Sở Kế hoạch và Đầu tư thành phố
             Hà Nội cấp ngày 17/04/2025
           </Text>
@@ -200,7 +201,7 @@ export function Footer() {
         <Image src="/images/bct.svg" />
       </Group>
       <Stack gap={0} align="center" mt="lg">
-        <Text fw={500} fz={14}>
+        <Text fw={400} fz={14}>
           STUTU.COM © Bản quyền của Công ty Cổ phần Tư vấn và Giải pháp Giáo dục Studiverse
         </Text>
         <Text fz={13} td="underline">
