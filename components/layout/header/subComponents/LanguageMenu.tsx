@@ -14,7 +14,7 @@ const LanguageMenu = () => {
     <Menu shadow="md" width={200}>
       <MenuTarget>
         <Group gap="sm" style={{ cursor: 'pointer' }}>
-          <Text size="xl" fw={600} tt="capitalize">
+          <Text fz={20} size="lg" fw={600} tt="capitalize">
             {locale}
           </Text>
           <IconChevronDown />

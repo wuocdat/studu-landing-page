@@ -8,18 +8,11 @@ interface NavAnchorProps {
   text: string;
   size?: 'sm' | 'md' | 'lg' | 'xl';
   link: string;
-  withUnderline?: boolean;
 }
 
-const NavAnchor: React.FC<NavAnchorProps> = ({ text, link, withUnderline = true, size = 'xl' }) => {
+const NavAnchor: React.FC<NavAnchorProps> = ({ text, link, size = 'md' }) => {
   return (
-    <Anchor
-      component={Link}
-      href={link}
-      size={size}
-      underline={withUnderline ? 'always' : 'never'}
-      c="black"
-    >
+    <Anchor component={Link} href={link} size={size} fz={20} fw={600} c="black">
       {text}
     </Anchor>
   );
