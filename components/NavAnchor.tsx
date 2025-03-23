@@ -1,8 +1,10 @@
 'use client';
 
 import React from 'react';
+import { useSelectedLayoutSegment } from 'next/navigation';
 import { Anchor } from '@mantine/core';
 import { Link } from '@/i18n/navigation';
+import APP_COLORS from '@/theme/colors';
 
 interface NavAnchorProps {
   text: string;
@@ -11,8 +13,19 @@ interface NavAnchorProps {
 }
 
 const NavAnchor: React.FC<NavAnchorProps> = ({ text, link, size = 'md' }) => {
+  const selectedLayoutSegment = useSelectedLayoutSegment();
+  const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
+  const isActive = pathname === link;
+
   return (
-    <Anchor component={Link} href={link} size={size} fz={20} fw={600} c="black">
+    <Anchor
+      component={Link}
+      href={link}
+      size={size}
+      fz={20}
+      fw={600}
+      c={isActive ? APP_COLORS.primary : 'black'}
+    >
       {text}
     </Anchor>
   );
