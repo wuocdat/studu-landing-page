@@ -83,7 +83,7 @@ export function Footer() {
     <Stack bg={APP_COLORS.grayBg} px={50} py="xl">
       <Group justify="space-between">
         <Text fz={24} fw={900}>
-          <Mark fw={900} bg="transparent" ff="monospace">
+          <Mark fw={900} bg="transparent" ff="text">
             STUTU
           </Mark>{' '}
           - Tie to Shine

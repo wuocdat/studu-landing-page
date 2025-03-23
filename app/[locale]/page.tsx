@@ -2,7 +2,6 @@ import { use } from 'react';
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import ActivitySection from '@/components/ActivitySection';
-import Fingerprint from '@/components/FingerPrint';
 import HeroSection from '@/components/HeroSection';
 import AutonomyIcon from '@/components/icons/AutonomyIcon';
 import CalendarIcon from '@/components/icons/CalendarIcon';
@@ -61,7 +60,6 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
 
   return (
     <>
-      <Fingerprint />
       <HeroSection />
       <IntroductionSection />
       <ActivitySection

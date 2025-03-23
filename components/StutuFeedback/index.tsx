@@ -3,7 +3,8 @@
 import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel } from '@mantine/carousel';
-import { Avatar, Stack, Text, Title } from '@mantine/core';
+import { Avatar, Box, Card, Stack, Text, Title } from '@mantine/core';
+import APP_COLORS from '@/theme/colors';
 
 const mockData = [
   {
@@ -32,7 +33,7 @@ const mockData = [
 ];
 
 const StutuFeedback = () => {
-  const autoplay = useRef(Autoplay({ delay: 2000 }));
+  const autoplay = useRef(Autoplay({ delay: 3000 }));
 
   return (
     <Stack p={50}>
@@ -40,26 +41,40 @@ const StutuFeedback = () => {
         Học viên nghĩ gì về STUTU
       </Text>
 
-      <Carousel
-        slideSize={{ base: '100%', sm: '50%', md: '33.333333%' }}
-        slideGap={{ base: 0, sm: 'md' }}
-        loop
-        align="start"
-        dragFree
-        plugins={[autoplay.current]}
-      >
-        {mockData.map((item, index) => (
-          <Carousel.Slide key={index}>
-            <Stack align="center" gap="xs" bg="white" p="lg" style={{ borderRadius: 16 }}>
-              <Avatar size="56px" src={item.image} alt={item.name} />
-              <Title order={3} mt="sm">
-                {item.name}
-              </Title>
-              <Text ta="center">{item.feedback}</Text>
-            </Stack>
-          </Carousel.Slide>
-        ))}
-      </Carousel>
+      <Box bg={APP_COLORS.grayBg}>
+        <Carousel
+          slideSize={{ base: '100%', sm: '50%', md: '33.333333%' }}
+          slideGap={{ base: 0, sm: 'md' }}
+          loop
+          align="start"
+          dragFree
+          plugins={[autoplay.current]}
+          withControls={false}
+        >
+          {mockData.map((item, index) => (
+            <Carousel.Slide key={index}>
+              <Card
+                shadow="sm"
+                radius="lg"
+                styles={{
+                  root: {
+                    alignItems: 'center',
+                  },
+                }}
+                m="xs"
+              >
+                <Avatar size="56px" src={item.image} alt={item.name} />
+                <Title order={3} mt="sm">
+                  {item.name}
+                </Title>
+                <Text mt="xs" fz={16} ta="justify" lineClamp={5}>
+                  {item.feedback}
+                </Text>
+              </Card>
+            </Carousel.Slide>
+          ))}
+        </Carousel>
+      </Box>
     </Stack>
   );
 };

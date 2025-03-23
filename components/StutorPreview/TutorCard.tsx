@@ -56,7 +56,7 @@ export default function TutorCard({
   const t = useTranslations('find_tutors');
 
   return (
-    <Card radius="24px" padding="md" shadow="sm" withBorder>
+    <Card radius="24px" m={4} padding="md" shadow="sm" withBorder>
       <Card.Section>
         <Image src={image} h={324} alt={name} fit="cover" />
       </Card.Section>
