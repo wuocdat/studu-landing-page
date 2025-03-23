@@ -1,15 +1,12 @@
 'use client';
 
-import { useRef } from 'react';
-import Autoplay from 'embla-carousel-autoplay';
+import { IconChevronLeft, IconChevronRight } from '@tabler/icons-react';
 import { Carousel } from '@mantine/carousel';
 import { Stack, Text } from '@mantine/core';
 import APP_COLORS from '@/theme/colors';
 import TutorCard from './TutorCard';
 
 const StutorPreview = () => {
-  const autoplay = useRef(Autoplay({ delay: 4000 }));
-
   return (
     <Stack bg={APP_COLORS.grayBg} p={50}>
       <Stack align="center" gap={0}>
@@ -18,12 +15,25 @@ const StutorPreview = () => {
       </Stack>
 
       <Carousel
-        slideSize={{ base: '100%', sm: '50%', md: '33.333333%', lg: '25%' }}
-        slideGap={{ base: 0, sm: 'md' }}
+        slideSize={{ base: '100%', sm: '50%', md: '33.333333%' }}
+        slideGap={{ base: 0, sm: 'md', md: 'lg', lg: 'xl' }}
+        controlSize={50}
+        withIndicators
         loop
         align="start"
         dragFree
-        plugins={[autoplay.current]}
+        nextControlIcon={<IconChevronRight size={32} />}
+        previousControlIcon={<IconChevronLeft size={32} />}
+        styles={{
+          control: {
+            backgroundColor: 'white',
+            opacity: 1,
+          },
+          root: {
+            paddingRight: 70,
+            paddingLeft: 70,
+          },
+        }}
       >
         <Carousel.Slide>
           <TutorCard
@@ -32,7 +42,7 @@ const StutorPreview = () => {
             certification="IELTS 8./TOEIC/SAT"
             experience="Kinh nghiệm 5 năm IELTS"
             price="323.333 VND - 61 phút"
-            image="/images/tutor_avatar.png"
+            image="/images/avatar.png"
           />
         </Carousel.Slide>
         <Carousel.Slide>

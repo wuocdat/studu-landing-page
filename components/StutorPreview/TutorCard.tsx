@@ -1,5 +1,17 @@
-import { Anchor, Button, Card, Group, Image, Stack, Text } from '@mantine/core';
-import CheckIcon from '../icons/CheckIcon';
+import { IconHeart, IconHeartFilled } from '@tabler/icons-react';
+import { useTranslations } from 'next-intl';
+import {
+  Anchor,
+  Button,
+  Card,
+  Checkbox,
+  CheckboxProps,
+  Group,
+  Image,
+  Stack,
+  Text,
+} from '@mantine/core';
+import StutuBadge from '../StutuBadge';
 
 interface TutorCardProps {
   name: string;
@@ -8,8 +20,28 @@ interface TutorCardProps {
   experience: string;
   price: string;
   image: string;
+  langue?: string;
   star?: number;
 }
+
+interface InfoRowProps {
+  icon: string;
+  text: string;
+}
+
+const InfoRow = ({ icon, text }: InfoRowProps) => {
+  return (
+    <Group gap="xs">
+      <Image src={icon} />
+      <Text fz={14} fw={400}>
+        {text}
+      </Text>
+    </Group>
+  );
+};
+
+const CheckboxIcon: CheckboxProps['icon'] = ({ indeterminate, ...others }) =>
+  indeterminate ? <IconHeart {...others} /> : <IconHeartFilled {...others} />;
 
 export default function TutorCard({
   name,
@@ -19,62 +51,64 @@ export default function TutorCard({
   price,
   image,
   star = 5,
+  langue = 'Tiếng Anh',
 }: TutorCardProps) {
-  const stars = Array.from({ length: star }, (_, index) => {
-    return <Image h={32} src="/images/pink_star.svg" key={index} />;
-  });
+  const t = useTranslations('find_tutors');
 
   return (
-    <Card radius="24px" p={32}>
-      <Card.Section p="sm">
-        <Image src={image} alt={name} />
+    <Card radius="24px" padding="md" shadow="sm" withBorder>
+      <Card.Section>
+        <Image src={image} h={324} alt={name} fit="cover" />
       </Card.Section>
 
-      <Stack gap={0} align="center" mb={16}>
-        <Group justify="center" mt="md">
-          <Text fw={800} fz={24}>
-            {name}{' '}
+      <Group justify="space-between" align="flex-start" mt="md">
+        <Stack gap={0}>
+          <Text fw={800} fz={16}>
+            {name}
           </Text>
-          <CheckIcon />
+          <Group gap={6}>
+            <StutuBadge icon="/images/cup.svg" text="STUTUtor" tooltip={t('STUTUtor_badge')} />
+            <StutuBadge
+              icon="/images/flower.svg"
+              text="Professional"
+              tooltip={t('professional_badge')}
+            />
+          </Group>
+        </Stack>
+        <Group gap={4}>
+          <Text fz={16} fw={600}>
+            {star}
+          </Text>
+          <Image h={32} src="/images/pink_star.svg" />
         </Group>
-        <Group gap={0}>{stars}</Group>
+      </Group>
+
+      <Stack gap={4} mt="sm">
+        <InfoRow icon="/images/collect.svg" text={university} />
+        <InfoRow icon="/images/language.svg" text={langue} />
+        <InfoRow icon="/images/cer_icon.svg" text={certification} />
+        <InfoRow icon="/images/exper.svg" text={experience} />
       </Stack>
 
-      <Group mt="sm" gap="xs">
-        <Image src="/images/collect.svg" />
-        <Text fz={16} fw={600}>
-          {university}
-        </Text>
-      </Group>
+      <Text fz={14} fw={400} mt="md" ta="justify" lineClamp={3}>
+        “Mình tin rằng học ngoại ngữ không khó. Bạn chỉ cần có một người đồng hành phù hợp. Và mình
+        có thể trở thành người mà bạn đang tìm kiếm.”
+      </Text>
 
-      <Group mt="xs" gap="xs">
-        <Image src="/images/cer_icon.svg" />
-        <Text fz={16} fw={600}>
-          {certification}
-        </Text>
-      </Group>
+      <Text fz={25} fw={700} mt="md" ta="center">
+        {price}
+      </Text>
 
-      <Group mt="xs" gap="xs">
-        <Image src="/images/user_icon.svg" />
-        <Text fz={16} fw={600}>
-          {experience}
-        </Text>
+      <Group mt="lg" justify="center">
+        <Button miw={100} size="sm" h="auto" py="6px" fz={14} radius="md">
+          Học thử
+        </Button>
+        <Button variant="outline" miw={100} size="sm" h="auto" py="6px" fz={14} radius="md">
+          Đăng ký
+        </Button>
+        <Checkbox variant="outline" icon={CheckboxIcon} defaultChecked />
       </Group>
-
-      <Group mt="xs" gap="xs">
-        <Image src="/images/money_icon.svg" />
-        <Text fz={16} fw={600}>
-          {price}
-        </Text>
-      </Group>
-
-      <Button fullWidth h={48} mt="md" size="lg">
-        Đăng ký
-      </Button>
-      <Button fullWidth h={48} mt="xs" variant="outline" size="lg">
-        Lưu vào yêu thích
-      </Button>
-      <Anchor mt="md" ta="center" underline="always" fz={16}>
+      <Anchor mt="lg" ta="center" underline="always" fz={14} fw={300}>
         Tìm hiểu thêm về gia sư
       </Anchor>
     </Card>

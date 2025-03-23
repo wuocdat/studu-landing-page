@@ -25,6 +25,7 @@
     "@mantine/hooks": "7.16.2",
     "@next/bundle-analyzer": "^15.1.5",
     "@tabler/icons-react": "^3.28.1",
+    "@thumbmarkjs/thumbmarkjs": "^0.19.1",
     "embla-carousel-autoplay": "^7.1.0",
     "embla-carousel-react": "^7.1.0",
     "next": "15.1.5",

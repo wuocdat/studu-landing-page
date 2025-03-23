@@ -5,6 +5,7 @@ import {
   Anchor,
   Badge,
   Button,
+  Card,
   Chip,
   colorsTuple,
   createTheme,
@@ -18,7 +19,9 @@ import {
 import APP_COLORS from './colors';
 import accordionClasses from './Accordion.module.css';
 import anchorClasses from './Anchor.module.css';
+import badgeClasses from './Badge.module.css';
 import buttonClasses from './Button.module.css';
+import cardClasses from './Card.module.css';
 import chipClasses from './Chip.module.css';
 import selectClasses from './Select.module.css';
 import textClasses from './Text.module.css';
@@ -106,14 +109,19 @@ export const theme = createTheme({
         position: 'top-start',
         w: 220,
         multiline: true,
+        color: 'white',
       },
       styles: {
         tooltip: {
           textAlign: 'justify',
+          boxShadow: '0 10px 15px rgba(0, 0, 0, 0.1)',
+          color: APP_COLORS.primaryText,
+          fontWeight: 600,
         },
       },
     }),
     Badge: Badge.extend({
+      classNames: badgeClasses,
       defaultProps: {
         size: 'xl',
         radius: 'sm',
@@ -132,6 +140,9 @@ export const theme = createTheme({
     }),
     Anchor: Anchor.extend({
       classNames: anchorClasses,
+    }),
+    Card: Card.extend({
+      classNames: cardClasses,
     }),
   },
 });
