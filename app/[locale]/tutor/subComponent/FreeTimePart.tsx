@@ -39,7 +39,12 @@ const time = [
   },
 ];
 
-export default function FreeTimePage() {
+interface FreeTimePartProps {
+  onNext: () => void;
+  onPrev: () => void;
+}
+
+export default function FreeTimePart(props: FreeTimePartProps) {
   const dayBoxes = days.map((day, index) => (
     <Stack
       key={index}
@@ -63,7 +68,7 @@ export default function FreeTimePage() {
   return (
     <Stack h="calc(100vh - 80px)" px={50} py="xl" gap="xl">
       <Group>
-        <ActionIcon variant="white" size="xl" color="black">
+        <ActionIcon variant="white" size="xl" color="black" onClick={props.onPrev}>
           <IconChevronLeft size={48} />
         </ActionIcon>
         <Title flex={1} ta="center" fw={800} order={1}>
@@ -94,7 +99,7 @@ export default function FreeTimePage() {
         </Stack>
       </Container>
       <Stack align="center" mt="lg">
-        <Button h={48} miw={150} size="xl">
+        <Button h={48} miw={150} size="xl" onClick={props.onNext}>
           Tiếp tục
         </Button>
       </Stack>

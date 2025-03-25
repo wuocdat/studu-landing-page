@@ -23,11 +23,16 @@ const valueLabelFormatter = (value: number) => {
   );
 };
 
-export default function AmountPart() {
+interface AmountPartProps {
+  onFinish: () => void;
+  onPrev: () => void;
+}
+
+export default function AmountPart(props: AmountPartProps) {
   return (
     <Stack h="calc(100vh - 80px)" px={50} py="xl" gap={50}>
       <Group>
-        <ActionIcon variant="white" size="xl" color="black">
+        <ActionIcon variant="white" size="xl" color="black" onClick={props.onPrev}>
           <IconChevronLeft size={48} />
         </ActionIcon>
         <Title flex={1} ta="center" fw={800} order={1}>
@@ -52,7 +57,7 @@ export default function AmountPart() {
         />
       </Group>
       <Stack align="center">
-        <Button h={48} miw={150} size="xl">
+        <Button h={48} miw={150} size="xl" onClick={props.onFinish}>
           Hoàn thành
         </Button>
       </Stack>

@@ -1,6 +1,11 @@
 import { Anchor, Box, Button, CheckboxGroup, Group, Stack, Title } from '@mantine/core';
 import CheckboxCard from '@/components/CheckboxCard';
 
+interface PurposePartProps {
+  onNext: () => void;
+  onSkip: () => void;
+}
+
 const purposes = [
   {
     title: 'Giao tiếp và công việc',
@@ -24,7 +29,7 @@ const purposes = [
   },
 ];
 
-export default function PurposePart() {
+export default function PurposePart({ onNext, onSkip }: PurposePartProps) {
   const cards = purposes.map((purpose, index) => {
     return (
       <Box w="28vw" key={index}>
@@ -46,10 +51,10 @@ export default function PurposePart() {
         </CheckboxGroup>
       </Box>
       <Stack align="center">
-        <Button h={48} miw={150} size="xl">
+        <Button h={48} miw={150} size="xl" onClick={onNext}>
           Tiếp tục
         </Button>
-        <Anchor fz={20} fw={300} fs="italic" underline="always">
+        <Anchor fz={20} fw={300} fs="italic" underline="always" onClick={onSkip}>
           Đến danh sách gia sư ngay
         </Anchor>
       </Stack>
