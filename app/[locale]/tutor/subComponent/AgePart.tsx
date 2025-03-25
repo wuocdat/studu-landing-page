@@ -1,4 +1,5 @@
-import { Button, Grid, GridCol, Group, RadioGroup, Stack, Title } from '@mantine/core';
+import { IconChevronLeft } from '@tabler/icons-react';
+import { ActionIcon, Button, Grid, GridCol, Group, RadioGroup, Stack, Title } from '@mantine/core';
 import RadioCard from '@/components/RadioCard';
 
 const purposes = [
@@ -36,7 +37,10 @@ export default function AgePart() {
   return (
     <Stack h="calc(100vh - 80px)" px={50} py="xl" gap={50}>
       <Group>
-        <Title ta="center" fw={800} order={1}>
+        <ActionIcon variant="white" size="xl" color="black">
+          <IconChevronLeft size={48} />
+        </ActionIcon>
+        <Title flex={1} ta="center" fw={800} order={1}>
           Độ tuổi hiện tại của bạn?
         </Title>
       </Group>
