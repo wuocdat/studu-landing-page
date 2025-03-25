@@ -1,9 +1,9 @@
-import AgePart from './subComponent/AgePart';
+import HobitPage from './subComponent/HobitPart';
 
 const TutorPage = () => {
   return (
     <>
-      <AgePart />
+      <HobitPage />
       {/* <IntroSection />
       <TutorFilterSection />
       <StututorResultSection /> */}
