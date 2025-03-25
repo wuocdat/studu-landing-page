@@ -1,9 +1,9 @@
-import FreeTimePage from './subComponent/FreeTimePart';
+import AmountPart from './subComponent/AmountPart';
 
 const TutorPage = () => {
   return (
     <>
-      <FreeTimePage />
+      <AmountPart />
       {/* <IntroSection />
       <TutorFilterSection />
       <StututorResultSection /> */}
