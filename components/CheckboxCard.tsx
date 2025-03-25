@@ -7,9 +7,11 @@ import classes from '../styles/CheckboxCard.module.css';
 interface CheckboxCardProps {
   image: string;
   text: string;
+  value?: string;
+  fontSize?: number;
 }
 
-export default function CheckboxCard({ image, text }: CheckboxCardProps) {
+export default function CheckboxCard({ image, text, value, fontSize }: CheckboxCardProps) {
   const [checked, setChecked] = useState(false);
 
   return (
@@ -25,8 +27,17 @@ export default function CheckboxCard({ image, text }: CheckboxCardProps) {
         <Box flex={1}>
           <Image src={image} />
         </Box>
-        <Text fz={24}>{text}</Text>
-        <Checkbox.Indicator size="lg" />
+        <Stack gap={0} ta="center">
+          <Text mt="xs" lh="100%" fz={fontSize || 24}>
+            {text}
+          </Text>
+          {value && (
+            <Text lh="100%" fz={fontSize || 24}>
+              {value}
+            </Text>
+          )}
+        </Stack>
+        <Checkbox.Indicator size="md" />
       </Stack>
     </Checkbox.Card>
   );
