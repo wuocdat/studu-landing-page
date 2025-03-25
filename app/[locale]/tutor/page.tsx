@@ -1,21 +1,13 @@
-import { use } from 'react';
-import { setRequestLocale } from 'next-intl/server';
-import { Stack } from '@mantine/core';
-import IntroSection from './subComponent/IntroSection';
-import StututorResultSection from './subComponent/StututorResultSection';
-import TutorFilterSection from './subComponent/TutorFilterSection';
+import AgePart from './subComponent/AgePart';
 
-const TutorPage = ({ params }: { params: Promise<{ locale: string }> }) => {
-  const { locale } = use<{ locale: string }>(params);
-
-  // Enable static rendering
-  setRequestLocale(locale);
+const TutorPage = () => {
   return (
-    <Stack py={70}>
-      <IntroSection />
+    <>
+      <AgePart />
+      {/* <IntroSection />
       <TutorFilterSection />
-      <StututorResultSection />
-    </Stack>
+      <StututorResultSection /> */}
+    </>
   );
 };
 
