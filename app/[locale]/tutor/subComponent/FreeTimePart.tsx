@@ -72,7 +72,7 @@ export default function FreeTimePart(props: FreeTimePartProps) {
           <IconChevronLeft size={48} />
         </ActionIcon>
         <Title flex={1} ta="center" fw={800} order={1}>
-          Độ tuổi hiện tại của bạn?
+          Thời gian rảnh hiện tại của bạn?
         </Title>
       </Group>
       <Container>

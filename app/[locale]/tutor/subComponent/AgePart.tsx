@@ -40,7 +40,7 @@ export default function AgePart(props: AgePartProps) {
   });
 
   return (
-    <Stack h="calc(100vh - 80px)" px={50} py="xl" gap={50}>
+    <Stack px={50} py="xl" gap={50}>
       <Group>
         <ActionIcon variant="white" size="xl" color="black" onClick={props.onBack}>
           <IconChevronLeft size={48} />

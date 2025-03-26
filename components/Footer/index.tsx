@@ -13,7 +13,10 @@ import {
   Text,
   Title,
 } from '@mantine/core';
+import { usePathname } from '@/i18n/navigation';
 import APP_COLORS from '@/theme/colors';
+
+const pageWithoutFooter = ['/tutor'];
 
 interface FooterLink {
   title: string;
@@ -21,6 +24,8 @@ interface FooterLink {
 }
 export function Footer() {
   const t = useTranslations();
+
+  const pathname = usePathname();
 
   const data: FooterLink[] = [
     {
@@ -78,6 +83,10 @@ export function Footer() {
       </Stack>
     );
   });
+
+  if (pageWithoutFooter.includes(pathname)) {
+    return <></>;
+  }
 
   return (
     <Stack bg={APP_COLORS.grayBg} px={50} py="xl">
