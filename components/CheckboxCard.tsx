@@ -20,6 +20,7 @@ export default function CheckboxCard({ image, text, value, fontSize }: CheckboxC
       radius="md"
       px="xl"
       py="lg"
+      h="100%"
       checked={checked}
       onClick={() => setChecked((c) => !c)}
     >

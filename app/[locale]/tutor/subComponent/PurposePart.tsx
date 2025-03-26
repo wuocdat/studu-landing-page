@@ -39,13 +39,13 @@ export default function PurposePart({ onNext, onSkip }: PurposePartProps) {
   });
 
   return (
-    <Stack h="calc(100vh - 80px)" px={50} py="xl" gap={50}>
+    <Stack px={50} py="xl" gap={50}>
       <Title ta="center" fw={800} order={1}>
         Mục đích hiện tại của bạn khi học ngôn ngữ là gì?
       </Title>
-      <Box flex={1} style={{ overflow: 'hidden' }}>
+      <Box>
         <CheckboxGroup>
-          <Group justify="center" gap="xl">
+          <Group justify="center" align="stretch" gap="xl">
             {cards}
           </Group>
         </CheckboxGroup>
