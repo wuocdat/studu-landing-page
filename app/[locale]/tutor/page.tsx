@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { Box } from '@mantine/core';
 import AgePart from './subComponent/AgePart';
 import AmountPart from './subComponent/AmountPart';
 import FreeTimePart from './subComponent/FreeTimePart';
@@ -33,11 +34,11 @@ const TutorPage = () => {
       {counter === 3 && <FreeTimePart onNext={handleNext} onPrev={handleBack} />}
       {counter === 4 && <AmountPart onFinish={handleNext} onPrev={handleBack} />}
       {counter === 5 && (
-        <>
+        <Box py={50}>
           <IntroSection />
           <TutorFilterSection />
           <StututorResultSection />
-        </>
+        </Box>
       )}
     </>
   );
