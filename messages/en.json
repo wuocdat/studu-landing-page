@@ -1,0 +1,684 @@
+{
+  "about_us": {
+    "join_with_us": "Join Us",
+    "mission": {
+      "details": {
+        "companionship": {
+          "description": "Always by the learner’s side, supporting and guiding them to turn challenges into opportunities.",
+          "title": "Companionship"
+        },
+        "connection": {
+          "description": "Serving as a strong bridge between learners and tutors.",
+          "title": "Connection"
+        },
+        "spreading": {
+          "description": "Inspiring and building a vast knowledge-sharing community.",
+          "title": "Spreading"
+        },
+        "understanding": {
+          "description": "Listening and understanding the difficulties of students on their journey to conquer knowledge.",
+          "title": "Understanding"
+        }
+      },
+      "title": "Mission"
+    },
+    "stutu_story": "STUTU's Story",
+    "stutu_story_content_1": "A second language is not just a tool; it is a gateway to new opportunities—from securing a place at a dream university to studying and working globally. However, mastering a language is not always an easy journey. STUTU understands that what learners truly need is not just a method but a companion—a teacher, a friend, someone who has faced the same challenges before.",
+    "stutu_story_content_2": "We believe that with the right support at the right time, learners can overcome any challenge. More importantly, no one can choose the right companion for you better than yourself. STUTU empowers learners with the autonomy to search for, select, and connect with their ideal teacher, transforming the learning journey into an inspiring experience.",
+    "subtitle": "STUTU is not the destination. STUTU is the beginning of a long journey.",
+    "title": "Bringing Vietnamese Knowledge<br>to the Global Stage</br>",
+    "vision": {
+      "description": "With a pioneering aspiration to revolutionize traditional teaching and learning methods, STUTU aims to build a 'Home School' ecosystem where learners can find everything they need to start, connect, and complete their journey of knowledge acquisition—conquering the world in their own way.",
+      "title": "Vision"
+    },
+    "our-team-section": {
+      "subtitle": "This world is built by dreamers like you, like us.",
+      "subtitle-2": "These are the ones who help create Stutu",
+      "title": "Team"
+    }
+  },
+  "become_student_stutu": {
+    "autonomy": {
+      "description": "You completely decide the tutor, study schedule and content according to personal goals.",
+      "title": "Autonomy"
+    },
+    "button": "Register",
+    "flexibility": {
+      "description": "Study anytime, anywhere according to your schedule, turning free time into development opportunities.",
+      "title": "Flexibility"
+    },
+    "subtitle": "Because you are the captain on your own ship",
+    "title": "Become a STUTU student",
+    "transparency": {
+      "description": "STUTU commits to verify and publicly disclose tutor information, helping you choose the right companion with peace of mind.",
+      "title": "Transparency"
+    }
+  },
+  "become_tutor_stutu": {
+    "button": "Create profile",
+    "no_commission": {
+      "description": "No receiving fee, no deposit, all income is yours. You deserve to receive everything from the effort you put in.",
+      "title": "No commission fee"
+    },
+    "proactive": {
+      "description": "You are free to set a reasonable tuition fee and choose a suitable teaching schedule. No one understands your time and value more than you.",
+      "title": "Proactive"
+    },
+    "secure": {
+      "description": "STUTU ensures that tuition fees are transferred to you in full and on time. Focus on teaching well, let us take care of the rest.",
+      "title": "Secure"
+    },
+    "subtitle": "To turn your abilities into unlimited income",
+    "title": "Become a STUTU tutor",
+    "steps-section": {
+      "1": {
+        "description": "To create tutor records",
+        "title": "Register"
+      },
+      "2": {
+        "description": "Within 24 hours",
+        "title": "Stutu Browse"
+      },
+      "3": {
+        "description": "Students across the country",
+        "title": "Start teaching"
+      },
+      "create-profile-now": "Create records now",
+      "subtitle": "Unlimited income at your home",
+      "title": "Goodbye rain and wind"
+    },
+    "feedback-section": {
+      "title": "Tutor talks about Stutu"
+    },
+    "questions-section": {
+      "1": {
+        "answer": "Your income on Stutu depends on many factors such as the tuition level you order, the number of students you have, your free time and some other factors. \nBesides, you also need to pay special attention to your health. \nThe average income if you teach full-time is about 40-50 million/month and part-time is about 15-20 million/month.",
+        "question": "How much money can I make on Stutu?"
+      },
+      "2": {
+        "answer": "Are not. \nStutu understands that you deserve all your efforts.",
+        "question": "Do I lose any extra fee?"
+      },
+      "3": {
+        "answer": "Okay. \nIf you want to teach directly, let us know when you register. \nRemember to fill in the area you want to teach and tuition. \nThere are many students out there are needing you B",
+        "question": "I want to teach directly?"
+      },
+      "title": "Tutor often asked"
+    }
+  },
+  "code_of_conduct": {
+    "title": "Code of Conduct"
+  },
+  "detailed_guide_students": {
+    "account_registration": {
+      "intro": "Chào mừng bạn đến với STUTU! Trên website hiện tại, bạn có hai hình thức để đăng ký tài khoản học viên.",
+      "md_content": "**Method 1:**\nClick the **Login** button in the upper right corner > **Register now**. From here, you can **Continue with Google** or **Continue with Facebook** to sign up using your existing Google or Facebook account.\n\nIf **Continue with Google**, STUTU's system will automatically update information including your “display name,” “email,” and “profile picture.”\n\nIf **Continue with Facebook**, STUTU's system will automatically update information including your “display name,” “profile picture,” and “email” (if available).\n\n**Method 2:**\nClick the **Login** button in the upper right corner to open the login window. From here, you can select **Sign up as a student**. With this option, you need to provide STUTU with information including a “display name,” “email,” and “password.”",
+      "title": "Hướng dẫn đăng ký tài khoản"
+    },
+    "login_guide": {
+      "intro": "Sau khi đăng ký, hệ thống sẽ ghi nhận các thông tin mà bạn đã cung cấp và lần sau bạn không cần đăng nhập lại nữa. Nếu bạn đăng nhập trên một trình duyệt khác, bạn có thể đăng nhập theo một trong hai cách sau:",
+      "md_content": "**Cách 1:** Click vào nút **Đăng nhập** ở góc trên bên phải để mở cửa sổ đăng nhập. Từ đây, bạn có thể \"Tiếp tục với google\" hoặc \"Tiếp tục với Facebook\" để đăng nhập bằng tài khoản Google hoặc Facebook mà bạn đã đăng ký trước đó với STUTU.\n\n**Cách 2:** Click vào nút **Đăng nhập** ở góc trên bên phải để mở cửa sổ đăng nhập. Từ đây, bạn có thể đăng nhập bằng cách nhập email và mật khẩu mà bạn đã đăng ký trước đó với STUTU.",
+      "title": "Hướng dẫn đăng nhập"
+    },
+    "search_placeholder": "Tìm kiếm từ khóa",
+    "student_regulations": {
+      "md_content": "Việc đăng ký tài khoản đồng nghĩa với việc bạn đã đọc và đồng ý với <a href=\"#\" style=\"color:#ff4081; font-weight:bold;\">Điều khoản dịch vụ</a> và <a href=\"#\" style=\"color:#ff4081; font-weight:bold;\">Bộ quy tắc ứng xử</a> của nền tảng, trong đó bao gồm, nhưng không giới hạn ở, các quy định sau:\n\n1. Không chia sẻ thông tin cá nhân dưới mọi hình thức. Các thông tin bao gồm, nhưng không giới hạn ở:\n   - Số điện thoại  \n   - Email  \n   - Tài khoản mạng xã hội (Facebook, Instagram,...)  \n   - Và tất cả các ứng dụng, phương thức nhằm mục đích liên lạc cá nhân khác.  \n\n2. Không gửi tin nhắn chứa các nội dung bao gồm, nhưng không giới hạn ở:\n   - Đường liên kết (Links) không phục vụ cho mục đích học tập trên nền tảng  \n   - Quảng cáo  \n   - Tuyển dụng  \n\n3. <strong>NGHIÊM CẤM</strong> các hành vi lừa đảo, quấy rối, làm phiền và tất cả các hành vi vi phạm pháp luật nước Cộng hòa Xã hội Chủ nghĩa Việt Nam.  \n\nCác hành vi vi phạm sẽ được xử lý theo quy định trong <a href=\"#\" style=\"color:#ff4081; font-weight:bold;\">Điều khoản dịch vụ</a> của STUTU.",
+      "title": "Quy định dành cho học viên"
+    },
+    "subtitle": "Tất tần tật để trở thành học viên STUTU",
+    "title": "Lời khuyên và hướng dẫn dành cho học viên"
+  },
+  "detailed_profile": {
+    "add_to_favorites": "Add to favorites",
+    "introduce_yourself": "Introduce Yourself",
+    "teaching_subjects": "Teaching subjects",
+    "tuition_fee": "Tuition Fee",
+    "work_schedule": "Work schedule",
+    "book_trial_class": "Schedule a trial",
+    "class_attendance_rate": "Participation rate <br> </br> sessions",
+    "highlight": "Effective learning starts from the appropriate connection. \nHere are tutors with similar methods, maybe one of them will be your ideal companion!",
+    "message_response_rate": "The response ratio <br> </br> Message",
+    "message_tutor": "Text with tutor",
+    "number_of_sessions": "Number of sessions",
+    "number_of_students": "Number of students",
+    "ratings_reviews": "Evaluate",
+    "sign_up_for_main_course": "Main study registration",
+    "similar_tutors": "Similar tutor",
+    "teaching_language": "Teaching language"
+  },
+  "find_tutors": {
+    "clear_filter": "Clear all selections",
+    "freeTime": "Free Time",
+    "hourlyRate": "Hourly Rate",
+    "languageSelection": "Language Selection:",
+    "professional_badge": "The Professional badge is awarded to tutors who have degrees and certifications related to the language they teach.",
+    "skillsToImprove": "Skills to Improve",
+    "STUTUtor_badge": "STUTUtor is a badge awarded to outstanding tutors on the platform.",
+    "subject": "Subject",
+    "subtitle": "At STUTU, all tutors are experienced in their subjects, with profiles carefully reviewed and approved by our platform team.",
+    "title": "The journey becomes more meaningful with the right companion",
+    "tutorBadge": "Tutor Badge"
+  },
+  "for_students": {
+    "english_proficiency_test": "English Proficiency Test",
+    "find_a_tutor": "Find a Tutor",
+    "frequently_asked_questions": "Frequently Asked Questions",
+    "refer_a_friend": "Refer a Friend",
+    "title": "For Students",
+    "why_choose_stutu": "Why Choose STUTU"
+  },
+  "for_tutors": {
+    "benefits_of_joining": "Benefits of Joining",
+    "frequently_asked_questions": "Frequently Asked Questions",
+    "registration_guide": "Registration Guide",
+    "title": "For Tutors"
+  },
+  "general_information": {
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "direct_questions": "Direct Questions",
+    "how_stutu_works": "How STUTU Works?",
+    "our_team": "Our Team",
+    "see_guide_detail": "View detailed guide",
+    "title": "General Information",
+    "try_now": "Get started"
+  },
+  "guidebook": {
+    "student_guide": "Student Guide",
+    "subtitle": "Maybe you don't ask. STUTU still answers",
+    "title": "Guidebook",
+    "tutor_guide": "Tutor Guide"
+  },
+  "header": {
+    "becomeTutor": "Become a tutor",
+    "findTutor": "Find a tutor",
+    "guide": "Guide",
+    "login": "Login"
+  },
+  "HeroSection": {
+    "startNow": "Getting started",
+    "subTitle": "Learn anytime, anywhere",
+    "title": "Tie to Shine"
+  },
+  "IntroductionSection": {
+    "content": "Learning a language opens up many opportunities, but the journey to conquer is not easy. When faced with difficulties, it is important to have a companion who understands and supports. STUTU is the platform that helps you connect with the right teacher, accompany you to turn your dreams into reality.",
+    "learnMore": "Learn more...",
+    "title": "STUTU's Story"
+  },
+  "metadata": {
+    "description": "Find a tutor for your needs or become a tutor and help others",
+    "title": "Stutu - Tutoring Platform"
+  },
+  "platform_policies": {
+    "code_of_conduct": "Code of Conduct",
+    "payment_policy": "Payment Policy",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "title": "Platform Policies"
+  },
+  "premium_tutoring": {
+    "customer_reviews_premium_tutoring": "Customers talk about Premium Tutoring",
+    "exclusive_to_premium_tutoring": {
+      "flexible_location": {
+        "content": "Study at the location where you feel most comfortable",
+        "title": "Flexible location"
+      },
+      "live_learning": {
+        "content": "Absorb knowledge best, no worries about interruptions",
+        "title": "Live Learning"
+      },
+      "priority_schedule": {
+        "content": "Tutors prioritize scheduling according to your timetable",
+        "title": "Priority schedule"
+      },
+      "subtitle": "Because you deserve the best",
+      "title": "Exclusive to Premium Tutoring"
+    },
+    "how_premium_tutoring_works": {
+      "1": {
+        "description": "Tell STUTU what kind of tutor you need through the registration form.",
+        "title": "Submit your tutoring request"
+      },
+      "2": {
+        "description": "Based on the information you provide, the STUTU academic team directly screens profiles to select the most suitable person for you.",
+        "title": "STUTU screens profiles to find the right tutor for you"
+      },
+      "3": {
+        "description": "Your program is developed by tutors with the evaluation and feedback of the STUTU academic team.",
+        "title": "Enjoy 100% personalized learning program"
+      },
+      "4": {
+        "description": "The academic team at STUTU always closely follows your progress throughout the learning journey",
+        "title": "STUTU monitors and ensures learning progress"
+      },
+      "title": "How does Premium Tutoring work?"
+    },
+    "subtitle": "Learn directly according to the schedule, timetable, and location you choose",
+    "title": "Premium Tutoring",
+    "frequently_asked_questions": {
+      "1": {
+        "answer": "The most outstanding feature of Premium Total is that you can study directly with the tutor at the location you choose, maybe at your home, company office or anywhere you want.",
+        "question": "What is special about Premium Tutoring?"
+      },
+      "2": {
+        "answer": "Of course! \nWhen registering Premium Tutoring, you will be given free free trial class, until you are satisfied with your tutor.",
+        "question": "Can I try it?"
+      },
+      "3": {
+        "answer": "To ensure the fairness for your tutor and yourself, there are some rules for the Premium Tutoring program that you need to follow here. \nBefore participating in the Premium Tutoring program, please read carefully and agree before continuing.",
+        "question": "What do I need to note when participating?"
+      },
+      "title": "Frequently asked questions"
+    }
+  },
+  "roadmap": {
+    "subtitle": "and you're ready",
+    "title": "A few simple steps"
+  },
+  "shared_text": {
+    "try_now": "Register now",
+    "search_keyword": "Search keywords",
+    "certifications": "Certificate",
+    "education_background": "Educate",
+    "see_more": "See more",
+    "sign_up": "Register"
+  },
+  "student_guide": {
+    "initial_steps": {
+      "account_registration": {
+        "md_content": "**Method 1:** Click the **Login** button in the upper right corner to open the registration window. From here, you can select “Continue with Google” or “Continue with Facebook” to sign up using your existing Google or Facebook account.\n\n**Method 2:** Click the **Login** button in the upper right corner to open the login window. From here, you can select **Sign up as a student**. With this option, you need to provide STUTU with information including a “display name,” “email,” and “password.”\n\n*Note: Registering an account means that you confirm you have read and agreed to STUTU's **Terms of Service**, **Code of Conduct**, and **Privacy Policy**. Please make sure to read them carefully and agree to all terms before proceeding.*",
+        "title": "Account Registration Guide"
+      },
+      "login_guide": {
+        "md_content": "After registration, the system will remember the information you provided, so you won’t need to log in again next time. If you log in on a different browser, you can log in using one of the **two** following methods:\n\n**Method 1:** Click the **Login** button in the upper right corner to open the login window. From here, you can select “Continue with Google” or “Continue with Facebook” to log in using the Google or Facebook account you previously registered with STUTU.\n\n**Method 2:** Click the **Login** button in the upper right corner to open the login window. From here, you can log in by entering the email and password you registered with STUTU.",
+        "title": "Login Guide"
+      },
+      "password_change": {
+        "md_content": "Follow these steps to change your STUTU account password:\n\n**Step 1:** Go to “Settings”\n\n**Step 2:** Click on “Password”\n\n**Step 3:** Enter your current password\n\n**Step 4:** Enter a new password and confirm it\n\n**Step 5:** Click “Save Changes”",
+        "title": "Changing Password"
+      },
+      "profile_update": {
+        "md_content": "Follow these steps to update your personal profile information:\n\n**Step 1:** Go to “Settings”\n\n**Step 2:** Click on “Personal Information”\n\n**Step 3:** Edit the information you want to change\n\n**Step 4:** Click “Save Changes”",
+        "title": "Updating Profile Information"
+      },
+      "student_regulations": {
+        "md_content": "Registering an account means you have read and agreed to the platform's **Terms of Service** and **Code of Conduct**, which include, but are not limited to, the following rules:\n\n1. Do not share personal information in any form. This includes, but is not limited to:\n   - Phone number  \n   - Email  \n   - Social media accounts (Facebook, Instagram, etc.)\n\n2. Do not send messages containing content including, but not limited to:\n   - Links that are not intended for educational purposes on the platform  \n   - Advertisements  \n   - Recruitment posts\n\n3. **STRICTLY PROHIBITED** acts include fraud, harassment, disturbance, and any violations of the laws of the Socialist Republic of Vietnam.\n\nViolations will be handled according to STUTU's **Terms of Service**.",
+        "title": "Student Regulations"
+      },
+      "title": "Initial Steps"
+    },
+    "official_course_info": {
+      "class_entry": {
+        "md_content": "When you log into the platform as a student, you will find notifications about your next class on the **Home Page**. All you need to do is select \"Join Class Now\".\n\n*Note: Some tutors have back-to-back classes. To ensure that previous sessions are not interrupted, your class will open 30 minutes before the scheduled time.*",
+        "title": "Joining a Class"
+      },
+      "course_cancellation": {
+        "md_content": "If you encounter an unexpected issue, STUTU encourages you to discuss it with your tutor and STUTU to find the best solution. However, if you still wish to cancel your registered course package, follow these steps:\n\n- **Go to Learning Journey → Schedule & Courses → Course Packages → Ongoing Courses**\n- **Select the package you wish to cancel and click 'Cancel Package'.**\n- **Provide a reason for cancellation and submit your request.**\n- **Wait for confirmation from the STUTU team within 48 hours.**\n\nOnce approved, you will receive a voucher in your account. You can check your vouchers in the **'Account Information' → 'Vouchers'** section.",
+        "title": "Canceling a Course Package"
+      },
+      "course_registration": {
+        "md_content": "**Step 1:** Select the basic information of the course package.\n\n**Step 2:** Arrange your class schedule based on the tutor's availability. You can choose a recurring schedule or a one-time session.\n\n**Step 3:** Confirm the details of your selected course package.\n\n**Step 4:** Wait for the tutor to confirm whether they can meet your course requirements.\n\n**Step 5:** Proceed with the payment and start learning right away.\n\n*Note: You must schedule all your sessions in **Step 2** before proceeding.*",
+        "title": "Registering for the Official Course Package"
+      },
+      "post_class_actions": {
+        "md_content": "If the session went well, simply click \"Confirm.\" The session will then be marked as \"Confirmed\" and counted as a successful lesson. You can also rate the session's quality—don’t forget to leave some positive feedback to encourage your tutor!\n\nIf you encounter any **unexpected issues**, please report them to STUTU immediately by selecting \"Report\".",
+        "title": "Post-Class Actions"
+      },
+      "schedule_management": {
+        "md_content": "**Step 1:** Go to Learning Journey → Schedule & Courses → Course Packages → Ongoing Courses.\n\n**Step 2:** Select the session you want to reschedule, click “Reschedule,” and choose a new time.\n\n**Step 3:** Click “Send Request” and wait for the tutor’s confirmation.\n\n- *STUTU encourages you to message the tutor in advance to agree on a new time, helping them confirm quickly and avoid learning disruptions.*\n- Tutors may accept or decline your reschedule request depending on their availability. Therefore, submit your request as early as possible!\n- *If your request is denied or not responded to within 24 hours, the session will proceed as originally scheduled.*",
+        "title": "Managing Your Schedule"
+      },
+      "single_lesson_purchase": {
+        "md_content": "STUTU understands that language learning requires commitment and long-term stability. Therefore, we currently offer course packages ranging from 8 to 20 sessions with varying durations to ensure learning continuity. You may want to purchase individual lessons to experience different tutors' teaching styles. This is a feature STUTU is considering and plans to introduce in the near future.",
+        "title": "Purchasing Individual Lessons"
+      },
+      "title": "Things You Need to Know About the Official Course Package",
+      "unwanted_situations": {
+        "md_content": "During the official course package, some unwanted situations may occur, such as the tutor suddenly losing contact or you accidentally missing a session. In these cases, STUTU encourages you to follow our suggested solutions and contact STUTU’s customer support team immediately to find the best resolution.",
+        "title": "Unwanted Situations"
+      }
+    },
+    "other_programs": {
+      "premium_tutoring": {
+        "md_content": "The **'Premium Tutoring'** program is designed for **executives, senior business leaders, and students with special requirements.** This program helps you find the most suitable tutor quickly, with a fully personalized learning plan, in-person learning at a location of your choice, and a flexible study schedule tailored to your availability.\n\nTo register for the premium tutoring program, visit [here] and submit your specific requirements so that the STUTU team can better understand your needs. Based on your requests, STUTU will select the most suitable tutor and get back to you within 24 hours of receiving your submission.",
+        "title": "Premium Tutoring Program"
+      },
+      "referral_program": {
+        "md_content": "**The 'Referral Program'** allows you to refer friends and family to enroll in courses and earn **UNLIMITED** rewards from STUTU.\n\n**Step 1:** Go to the 'Referral Program' section and get your referral code.\n\n**Step 2:** Share it with others.\n\n**Step 3:** The referred person registers for a course package (remind them to enter your referral code!).\n\n**Step 4:** Track your earnings.\n\n**Step 5:** Accumulate your earnings like a savings account.\n\n**Step 6:** Request a withdrawal when needed.",
+        "title": "Referral Program"
+      },
+      "title": "Other Programs"
+    },
+    "subtitle": "Everything you need to become a STUTU student",
+    "title": "Students ask <br>STUTU answers</br>",
+    "trial_session_info": {
+      "booking_guide": {
+        "md_content": "**Step 1**: Once you find a suitable tutor, click on the “Book a Trial Session” button.\n\n**Step 2**: Choose the date and time slot that best fits your schedule.\n\n**Step 3**: Select your specific learning goals (This helps the tutor understand you better and makes the trial session more effective!).\n\n**Step 4**: Complete the payment for the trial session via bank transfer.\n\n*Note: Step 4 only appears if you have used up all your free trial sessions.*",
+        "title": "How to Book a Trial Session"
+      },
+      "free_and_paid_sessions": {
+        "md_content": "Each student receives 2 free trial sessions after completing their profile update on the platform. STUTU will only charge a small fee starting from the third trial session.\n\n*For paid trial sessions, if you are not satisfied with the session, you can contact STUTU and provide feedback. We will review the situation and either refund your session fee or offer you a completely free trial session with another tutor (at any fee level)!*",
+        "title": "Free and Paid Trial Sessions"
+      },
+      "session_content": {
+        "md_content": "A trial session lasts between 25 - 50 minutes. Based on your preferences, the tutor will design the session content to best suit your needs. This session typically includes the following:\n\n- Introducing yourself and getting to know the tutor better.\n- Sharing your learning goals, learning style, and expectations from the tutor.\n- The tutor will assess your language proficiency level. Based on your input, the tutor will guide you in creating the most suitable learning plan for the future.",
+        "title": "Content of the Trial Session"
+      },
+      "title": "Things You Need to Know About the Trial Session",
+      "unwanted_situations": {
+        "md_content": "During the trial session booking process, some unwanted situations may occur, such as the tutor declining to teach a trial session or being absent without prior notice. In these cases, STUTU encourages you to follow the suggested solutions we provide here and immediately contact STUTU’s customer support team to find the best resolution.",
+        "title": "Unwanted Situations"
+      }
+    },
+    "tuition_and_payment": {
+      "payment_methods": {
+        "md_content": "When registering for a course, STUTU provides a QR code and bank transfer details along with a payment code.\nSimply scan the QR code or make a transfer using the provided information, ensuring you enter the payment code correctly in the transaction details.\nOnce the payment is successfully processed, the system will automatically confirm and activate your course.\n\n- *Please carefully check the **transaction details** before making a transfer to avoid any errors.*\n- *If you need assistance or encounter any issues during the payment process, please contact STUTU immediately.*",
+        "title": "Payment Methods"
+      },
+      "title": "Tuition and Payment Issues",
+      "tuition_refund": {
+        "md_content": "A tuition refund may be issued if a student cancels their registered official course package on the platform.\nRefunds will only be processed if the student has canceled the official course package and submitted a refund request.\nTo be eligible for a refund, the student must provide sufficient evidence proving that they are unable to complete the registered course due to an issue caused by the platform.\nThe decision to issue a refund is solely at STUTU's discretion and is final.\nThe refunded amount will not exceed the value of the remaining sessions in the registered course package.\n\n*If a student cancels their registered official course package without requesting a refund, STUTU will provide them with a voucher equal to the value of the remaining sessions in the package.*",
+        "title": "Tuition Refund"
+      }
+    },
+    "tutor_selection": {
+      "report_block_tutor": {
+        "md_content": "During your learning experience, if you encounter any issues with a tutor, such as:\n- The tutor engages in inappropriate behavior (harassment, insults, discrimination, etc.).\n- The tutor disrespects students or violates the code of conduct.\n- The tutor requests payments outside the STUTU platform.\n- The tutor provides false information or engages in fraudulent activities.\n- The tutor arrives late to lessons.\n- The tutor is absent without reason or without a valid excuse.\n- The tutor experiences frequent technical issues during lessons.\n\nYou can use the block or report features to protect your rights.",
+        "title": "Report / Block Tutor"
+      },
+      "search_tutor": {
+        "md_content": "**Step 1:** Click on the “Find a Tutor” button on the homepage of the website.\n\n**Step 2:** Use the filtering tool to find tutors that match your criteria, including:\n- **Language:** Choose the language you want. Example: English.\n- **Subjects:** Select subjects corresponding to the chosen language. You can choose more than one subject. Example: IELTS, TOEIC, SAT.\n- **Tuition Range:** Set the price range you are willing to pay per hour for tutoring. Example: 200,000 - 500,000.\n- **Availability:** Choose the time slots that fit your schedule. You can select multiple time slots. Example: Anytime.\n- **Skills to Improve:** Select the skills you want the tutor to focus on. You can choose multiple skills. Example: Listening, Speaking.\n- **Tutor Badges:** Filter tutors based on badges. Example: STUTutor.\n\n**Step 3:** Once the results appear, you can use the “Sort” tool to customize the list according to your preferences.\n\n*If you have difficulty finding a suitable tutor, feel free to message the STUTU Customer Support team, and we will help you find the best companion for your learning journey.*",
+        "title": "Find a Tutor"
+      },
+      "title": "Choosing the Right Tutor"
+    }
+  },
+  "tutor_benefits": {
+    "broad_market_access": {
+      "description": "STUTU helps you connect with a diverse network of students across various locations. With a smart platform, you can establish a professional teaching profile, demonstrate your expertise, and teach efficiently to a wide audience of students searching for quality tutors on STUTU. Join STUTU to build an engaging educational environment and achieve sustainable growth.",
+      "title": "Broad Market Access"
+    },
+    "flexible_schedule": {
+      "description": "With STUTU, you have complete control over managing your schedule. You can arrange class times based on your needs without being bound by a fixed curriculum. Our flexible system allows you to accept or decline classes, ensuring a balance between work and life. Enjoy and optimize your teaching efficiency according to your personal preferences.",
+      "title": "Flexible Schedule"
+    },
+    "no_introduction_fee": {
+      "description": "STUTU does not charge any fee for tutors. Your entire income, according to the tuition fee you set, will be yours. STUTU does not intervene in the transparent agreement between tutors and students. All your efforts and dedication will be rewarded fairly without any deductions from the platform.",
+      "title": "No Introduction Fee"
+    },
+    "no_late_or_skipped_payment": {
+      "description": "Students must pay in advance to STUTU when registering for a class. You only need to complete all sessions and ensure effective knowledge transfer to students, then you will always receive your income on the 10th of each month. Transactions are conducted transparently, with no additional fees affecting your earnings.",
+      "title": "No Late or Skipped Payment"
+    },
+    "personal_brand_development": {
+      "description": "STUTU helps tutors build a professional personal brand. You can create a unique, distinctive profile to highlight your strengths and expertise, making it easier for students to find and book your services. STUTU always supports the growth of your personal brand, helping expand your teaching network and build long-term relationships with students.",
+      "title": "Personal Brand Development"
+    },
+    "set_your_own_fee": {
+      "description": "When registering a tutor profile on STUTU, you have the right to set your own hourly rate. There are no fixed price constraints; instead, the fee is determined based on the quality and experience of the tutor, as well as the value they bring. Take this opportunity to set a reasonable tuition fee that suits student needs while developing your teaching career independently and effectively.",
+      "title": "Set Your Own Fee"
+    }
+  },
+  "welcome": {
+    "learner": "I am a learner",
+    "tutor": "I am a tutor"
+  },
+  "detailed_guide_tutors": {
+    "title": "Advice and instructions for tutors",
+    "subtitle": "All disabilities to become a Stutu tutor",
+    "toc": {
+      "initial_steps": {
+        "title": "Initial steps",
+        "registration_process": "Registration process",
+        "avatar_guidelines": "Note about avatar",
+        "intro_video_guidelines": "Note about introduction videos",
+        "self_introduction_guidelines": "Note about \"introduce yourself\"",
+        "information_verification_guide": "Instructions for information authentication",
+        "tuition_guidelines": "Note about tuition",
+        "tutor_profile_statuses": "The tutoring status",
+        "tutor_regulations": "Regulations for tutors",
+        "report_block_student": "Report / block student",
+        "persional_schedule_management": "Personal calendar management",
+        "work_schedule_setup": "Make your work schedule",
+        "student_last_minute_trial_booking": "Students book an urgent test schedule",
+        "class_session_management": "Schedule management"
+      },
+      "class_session_management": {
+        "enroll_confirmation": "Confirmation of registration",
+        "post_class_actions": "The operation after the lesson",
+        "provide_class_link": "Provide class link",
+        "reschedule_class_session": "Change the session schedule",
+        "unexpected_scenarios": "Unwanted situations"
+      },
+      "general-tips": {
+        "badge-achievement": "Achieving badges",
+        "student_retention": "Maintain the companionship of students",
+        "title": "Some tips",
+        "trial_class_impression_tips": "Impressed in the trial session"
+      },
+      "income_management": {
+        "payment_cycle": "Payment cycle",
+        "payment_method": "Payment method",
+        "session_salary_basis": "Salary calculation basis for each lesson",
+        "title": "Income management",
+        "tutor_tax_obligations": "Tax obligations of tutors"
+      },
+      "performance-management": {
+        "title": "Performance management"
+      },
+      "profile_management": {
+        "password_change": "Password change",
+        "personal_info_update": "Change personal information",
+        "profile_deletion": "Delete records",
+        "profile_hidden": "Hide documents",
+        "title": "Document management",
+        "tuition_fee_update": "Change tuition"
+      }
+    }
+  },
+  "privacy_policy": {
+    "title": "Privacy policy"
+  },
+  "referral_program": {
+    "benefit": {
+      "remote_work": {
+        "content": "There is no need for wifi, you just need to introduce your friends to Stutu and make sure they enter your introduction code.",
+        "title": "Remote"
+      },
+      "share_opportunity": {
+        "content": "Study anytime, anywhere \n\nGiving friends the opportunity to find the right companion on the journey to conquer the language (and change life).",
+        "title": "Share opportunities"
+      },
+      "unlimited_income": {
+        "content": "There is no limit on the income you receive. \nThe more you introduce, the increasing income.",
+        "title": "Unlimited income"
+      }
+    },
+    "big_title": "Share opportunities <br></br> Receive worthy rewards",
+    "frequently_asked_questions": {
+      "how_do_i_receive_my_income": {
+        "answer": "In the registration step to become a collaborator, let Stutu give your bank account information or MOMO. \nNote that this must be your main account.",
+        "question": "Where do I get income?"
+      },
+      "how_is_my_income_calculated": {
+        "answer": "Your income for each introduced person is calculated by: The value of anthropological package with the corresponding reward ratio (1%, 2%or 3%). \nThe display income here is the cumulative income from the time you register to become a collaborator.",
+        "question": "How is my income calculated?"
+      },
+      "income_payout_time": {
+        "answer": "Your income will be paid periodically on 10 months. \nPayment income will be your total income in the previous month.",
+        "question": "When will I get income?"
+      },
+      "title": "Frequently asked questions"
+    },
+    "generate_referral_code": {
+      "description": "Create a introductory code to show your own nature and remember to give this code to your friends when they register. \nRemember to note the rules for creating the introduction code we have noted.",
+      "subtitle": "your own",
+      "title": "Create introduction code"
+    },
+    "invite_friends": {
+      "description": "When your friends register the main package, they can enter your introduction code. \nAs a thank you for your support, Stutu gives you a reward up to **3% of the value of the package** your friends register. \nAnd it is important that this reward applies to both registration and **all subsequent registration**, as long as they enter your introduction code. \nYour income will be paid periodically on 10 months. \nYou can check your income [here](#).",
+      "subtitle": "and receive rewards",
+      "title": "Introducing friends"
+    },
+    "sign_up": {
+      "description": "First of all you need to register an account at Stutu. \nYou may be a tutor or a student depending on the role you want to undertake on the platform. \nAfter that, you can register to become a collaborator from your homepage. \nDuring the registration process, you need to provide some basic information so that Stutu can record you to become a collaborator as well as to facilitate your income payment process.",
+      "subtitle": "To become a collaborator",
+      "title": "Register"
+    },
+    "subtitle": "Share about Stutu with your friends and get income",
+    "top_contributor": "Typical collaborators"
+  },
+  "terms_of_service": {
+    "title": "Service Terms"
+  },
+  "tutor_guide": {
+    "class_management": {
+      "class_link_provision": {
+        "md_content": "When you create a tutor, we will ask you to provide links for the trial session and the link for the main lessons. \nThese links will need to be opened so that students can enter your class. \nYou absolutely can change the link to the classroom by visiting ** tutoring profile> class link ** offline. \nTo ensure students can enter the class on time, you will not be able to edit the link into the class within 1 hour before coming to the next class.",
+        "title": "Provide class link"
+      },
+      "class_rescheduling": {
+        "md_content": "Please notify students ** at least 48 hours ** by sending a brief explanation message and proposing a new schedule. \nYou will not be able to reverse the session schedule if the lesson starts within 48 hours.\n\n\n** Step 1: ** Go to the teaching schedule ** in the teaching diary ** in the navigation bar. <br/>\n\n** Step 2: ** Go to the lesson you are in need of cancel, select ** Cancel the lesson. ** <br/>\n\n** Step 3: ** The notification display> Select ** Continue ** or ** Close. ** <br/>  \n\n** Step 4: ** Choose a new study schedule on ** Teaching calendar ** (Make sure this is the calendar you have exchanged and agreed first with students) and select ** confirm. **\n\n\nRequirements for changing schedule will be sent to students and new schedules will be updated on ** Teaching schedule ** When students choose ** accept.",
+        "title": "Change the session schedule"
+      },
+      "post_class_actions": {
+        "md_content": "Operations after your lesson include:\n\n1. Review after each lesson  \n\n2. Update the lesson information  \n\n3. Update recording of the lesson",
+        "title": "The operation after the lesson"
+      },
+      "registration_confirmation": {
+        "md_content": "When a student registers for a test or an official package with you, Stutu will send a notice to the account as well as via email, then you will need to respond to the request from the student within 48 hours in one of the following two ways:\n\n\n- Select the button ** accept ** right at the notice so that the status update system has been confirmed for the student's registration requirement.  \n\n- Find the request for registration of a test session/ learning package in ** Teaching diary> Teaching schedule> Waiting for confirmation> confirmation. **\n\n\nAfter ** 48 hours **, if you have not confirmed the lesson, the system will automatically transfer the request for registration of a test/ package to the state ** rejected. **",
+        "title": "Confirmation of registration"
+      },
+      "title": "Session management",
+      "unwanted_situations": {
+        "md_content": "In the process of teaching on the basis, you may encounter some unwanted situations such as students who do not go to school or you can not teach yourself. \nIn these cases, we have some advice for you.",
+        "title": "Unwanted situations"
+      }
+    },
+    "initial_steps": {
+      "avatar_guidelines": {
+        "md_content": "Requirements for avatars:\n\n- Image of the face (not tilted angle)  \n\n- sharp/high resolution  \n\n- Light and background suitable  \n\n- Say cheese! \nYou can smile or smile (this is an extremely important thing to help you become more friendly in the eyes of the student)\n\n\nStutu will ** not browse ** Your profile in the case of avatar:\n\n- Contains personal contact information  \n\n- Contains the logo for advertising purposes  \n\n- A photo taken with others  \n\n- Is black and white photo  \n\n- Use Filter  \n\n- Blurred/broken or edited too much  \n\n- There are borders or frames",
+        "title": "Note about avatar"
+      },
+      "info_verification_guide": {
+        "md_content": "To ensure information reliability, Stutu requires tutors to provide identification photos or passports during the application registration process.  \n\n\n_You just need ** front shot ** of identity or passport._",
+        "title": "Instructions for information authentication"
+      },
+      "intro_video_guidelines": {
+        "md_content": "** Video content introduction **\n\n\nThe introductory video content is usually divided into 3 parts:\n\n- Introducing yourself (15–30 seconds)\n\n- Share your experiences and expertise (45–60 seconds)\n\n- End (15–20 seconds)\n\n\nRequirements for self -introduction videos:\n\n\n- ** Usage language: ** The language you choose to teach, accompanied with Vietnamese subtitles.  \n\n- ** Technical requirements: **\n\n- Video recording in horizontal mode  \n\n- Good lighting conditions  \n\n- Quiet space, noise limit  \n\n- Make sure the camera does not shake, your face is always clear\n\n\nStutu will ** not review ** Your introduction video in the following cases:\n\n\n- Contains personal contact information  \n\n- Contains logos or information for advertising purposes  \n\n- There is the appearance of others in the video  \n\n- Use Filter  \n\n- Blurred/broken or edited too much\n\n\n** Upload the introduction video **\n\n\nTo upload the filmed video, you can perform the steps ** [here] (/private_policy) **.",
+        "title": "Note about introduction videos"
+      },
+      "registration_process": {
+        "md_content": "** Step 1: ** After accessing Stutu's official website at the address:\n\n\n** Step 2: ** Enter the basic information, including: email and password. \nYou can also log in with Facebook, Google or Apple accounts.\n\n\n** Step 3: ** Fill in the tutor's profile information including:\n\n* Basic personal information (full name, gender, date of birth, nationality ...)\n\n* Avatar\n\n* Education\n\n* Language",
+        "title": "Registration process"
+      },
+      "self_introduction_tips": {
+        "md_content": "With ** general introduction ** limit ** 200 from **, Stutu recommends that you can focus on the following aspects:\n\n- Full name, teaching expertise\n\n- Number of years of experience (if any)\n\n- Relevant qualifications, certificates or good academic results\n\n- Actual work experience (personal tutor, center ...)\n\n- Your method and style of teaching and why they help students progress effectively\n\n\nWith the ** message ** limit ** 30 words **, you can focus on one of the following aspects:\n\n- The biggest strength of yourself.\n\n- Your typical teaching style.\n\n- The beliefs/values ​​you pursue on the teaching journey.\n\n- Favorite maxim.",
+        "title": "Note about \"introduce yourself\""
+      },
+      "student_reporting": {
+        "md_content": "In the learning process, if you encounter any problems with students such as:\n\n- Students have inappropriate behaviors (harassment, insult, discrimination, etc.).\n\n- Students do not respect tutor or violate [Code of Conduct] (/code_conduct).\n\n- Students ask for payment outside the Stutu platform.\n\n- Students provide false information or fraudulent acts.\n\n- And any other actions violate the law of the Socialist Republic of Vietnam.\n\n\nYou can use the reporting features or block students to protect your rights.",
+        "title": "Report / block student"
+      },
+      "title": "Initial steps",
+      "tuition_notes": {
+        "md_content": "At Stutu, when registering the profile, the tutor is decided and selected the tuition that he wants. \nThe tutor can automatically adjust this tuition fee during the teaching process.",
+        "title": "Note about tuition"
+      },
+      "tutor_regulations": {
+        "md_content": "The account registration means that you have read and agree with [service terms] (/terms) and [Code of Conduct] (/code_conduct) of the platform, which includes, but not limited to the following provisions:\n\n\n1. Do not share personal information in any form. \nThe information includes, but not limited to:\n   \n- Phone number  \n   \n- Email  \n   \n- Social network account (Facebook, Instagram, ...)\n\n\n2. Do not send messages containing contents including, but not limited to:\n   \n- Links (links) does not serve the purpose of learning on the basis  \n   \n- Advertisement  \n   \n- Recruitment  \n\n\n3.\n\n\nThe violations will be handled in accordance with the [service terms] (/terms) of Stutu.",
+        "title": "Regulations for tutors"
+      },
+      "tutor_status": {
+        "md_content": "Your tutor's profile may fall into ** 1 of the following 3 states **:\n\n\n- ** Wait for completion **: Your profile has not been completed.\n\n\n- ** Wait for review **: Your profile has been completed and sent to Stutu's team to wait for approval. \nStutu is committed to sending the review results to you within ** 24 hours **.\n\n\n- ** Approved **: Your profile is standard and you have officially become a tutor at Stutu.\n\n\n- ** Requirement **: Your profile is almost complete, only a few small factors need to be changed before being reviewed by Stutu.\n\n\n- ** Refuses **: Your application does not meet the standard or makes serious errors that make the dossier temporarily not approved.",
+        "title": "The tutoring status"
+      }
+    },
+    "personal_schedule_management": {
+      "setup_work_schedule": {
+        "md_content": "When registering the application, Stutu will ask you to update the working schedule of the week (is the time you can accept the student). \nStudents can only choose to register for trials and official study on the sessions you have chosen. \nHowever, you can change the calendar if needed.",
+        "title": "Make your work schedule"
+      },
+      "title": "Personal calendar management",
+      "urgent_trial_booking": {
+        "md_content": "Currently, Stutu has no time limit to avoid students booking too urgently. \nWe have noted the students that we should not schedule too close during the test of the trial session.\n\n\n_However, there are always a few ** script ** so you can rely on the case where students set a test schedule too urgently._",
+        "title": "Students book an urgent test schedule"
+      }
+    },
+    "profile_management": {
+      "advice_section": {
+        "md_content": "Before you create records and officially become Stutu's tutor, we have some tips for you about:\n\n\n- Impressed in the trial session\n\n- Maintain the companionship of the student\n\n- Achieving badges\n\n\nHope you can read and try it out!",
+        "title": "Some tips"
+      },
+      "change_password": {
+        "md_content": "The following are the steps for you to change the password for your account on Stutu:\n\n\n** Step 1: ** Go to section ** Settings **.\n\n\n** Step 2: ** Click on the ** password **.\n\n\n** Step 3: ** Enter the current password.\n\n\n** Step 4: ** Enter the new password and confirm the second password.\n\n\n** Step 5: ** Click ** Save change **.\n\n\nIn case you forget the password, click [here] (",
+        "title": "Password change"
+      },
+      "delete_profile": {
+        "md_content": "In case you feel that it is time to start a new journey of your own, you can delete tutor records from the platform.\n\n\n** Step 1: ** Go to section ** Settings **.\n\n\n** Step 2: ** Click on the account ** Delete your account **.\n\n\n** Step 3: ** Enter the email you used when registering an account to confirm the deletion of the application.\n\n\n** Step 4: ** Click on the box ** Confirm the account deletion **.",
+        "title": "Delete records"
+      },
+      "edit_personal_info": {
+        "md_content": "In the process of teaching, tutors can still constantly update and adjust the records to help their records become more complete. \nHere are 3 groups of information to note:\n\n- The information cannot be changed:\n\n- The information may change and take effect immediately:\n\n- The information may change but need to wait for Stutu to approve:",
+        "title": "Change personal information"
+      },
+      "hide_profile": {
+        "md_content": "Hidden profile is a feature that allows temporary tutor records not to display for new students on the platform (students who have tried or have the main school package can still see and schedule).\n\n\nDuring the postile hide time, you can still teach and contact the current students. \nSometimes, your profile will automatically be hidden due to lack of activity or violation ** service terms **.",
+        "title": "Hide documents"
+      },
+      "income_management": {
+        "md_content": "** 1. \nSalary calculation basis for each lesson **\n\n\nThe salary of the lesson will be recorded when simultaneously meeting the following two conditions:\n\n- Students confirm the lesson took place.\n\n- The recording link of that session was fully uploaded by tutor in ** journey **.\n\n\nIf one of the two conditions is not met, the lesson will not be calculated and Stutu will participate in the case in case of a dispute arising.\n\n\n** 2. \nPayment cycle **\n\n\nThe tutor will receive all the earnings in the latest month on the 10th of the next month.\n\n\n** 3. \nPayment method **\n\n\nStutu will pay your income by bank transfer method.\n\n\n** 4. \nTax obligations of tutor **\n\n\nTax payment is the right and obligation of a citizen. \nWhen you are a tutor, you are not Stutu's employee but an independent individual. \nSo you need to declare tax and pay taxes according to the State's regulations. \nYou can see the tax declaration guide here if it is not clear about the tax procedure and procedure.",
+        "title": "Income management"
+      },
+      "performance_management": {
+        "md_content": "In the process of teaching on the basis, we have recorded and statistics some criteria that you may be interested in. \nYou can check these criteria in the performance management section on the navigation bar.",
+        "title": "Performance management"
+      },
+      "title": "Document management",
+      "update_tuition_fee": {
+        "md_content": "In case you want to change the tuition fee, here are the steps to be done:\n\n\n** Step 1: ** Go to personal profile.\n\n\n** Step 2: ** Click on the tuition **. **.\n\n\n** Step 3: ** Set a new tuition.\n\n\n** Step 4: ** Save change.\n\n\n_The new fee will be ** not applicable ** for the main test sessions or the main school package that has been successfully placed before the change time. \nThe new tuition will only apply to the new trial sessions or packages set from the time of changing tuition information of the tutor.",
+        "title": "Change tuition"
+      }
+    },
+    "subtitle": "All disabilities to become a Stutu tutor",
+    "title": "The tutor asked <br> stutu answered </br>"
+  },
+  "footer": {
+    "general_information": {
+      "about-stutu": "About Stutu",
+      "code-conduct": "Code of Conduct",
+      "join-us": "Join us",
+      "privacy-policy": "Privacy policy",
+      "terms": "Service Terms",
+      "title": "General information"
+    },
+    "for_students": {
+      "become_student": "Become a student",
+      "referral_program": "Introduction program",
+      "student_guideline": "Guide students",
+      "title": "For students"
+    },
+    "for_tutors": {
+      "become-tutor": "Become a tutor",
+      "referral-program": "Introduction program",
+      "title": "For tutors",
+      "tutor_guideline": "Guide tutor"
+    },
+    "business-license": "Business registration certificate number: 016969696969 issued by the Department of Planning and Investment of Hanoi City on April 17, 2025",
+    "company-address": "Address of headquarters: N5 house number, area D, lane 57 Lang Ha, Thanh Cong Ward, Ba Dinh District, Hanoi City, Vietnam",
+    "copyright": "Stutu.com",
+    "disclaimer": "Declaration of liability exemption",
+    "email": "Email: team@stutu.com",
+    "phone-number": "Contact phone: 096 969 969",
+    "studiverse-company": "STUDIVERSE CONSULTING AND SOLUTION JOINT STOCK COMPANY"
+  },
+  "home_page": {
+    "feedback-section": {
+      "title": "What do students think about Stutu"
+    },
+    "tutor_preview_section": {
+      "subtitle": "But you can choose a companion on that path",
+      "title": "We cannot choose the easiest path"
+    }
+  }
+}

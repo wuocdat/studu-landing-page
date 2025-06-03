@@ -1,0 +1,41 @@
+# .dockerignore
+
+# Node modules và build artifacts
+node_modules
+.next
+out
+dist
+
+# Git và version control
+.git
+.gitignore
+.github
+
+# Environment files (giữ lại .env.production nếu cần)
+.env*.local
+.env.development
+.env.test
+
+# Logs và cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE và editor configs
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage
+.nyc_output
+
+# Misc
+.DS_Store
+*.md
+.thumbs

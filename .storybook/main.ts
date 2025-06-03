@@ -1,12 +1,16 @@
-import type { StorybookConfig } from '@storybook/react-vite';
+import type { StorybookConfig } from '@storybook/nextjs';
 
 const config: StorybookConfig = {
-  stories: ['../src/**/*.mdx', '../src/**/*.story.@(js|jsx|ts|tsx)'],
-  addons: ['@storybook/addon-essentials', 'storybook-dark-mode'],
+  core: {
+    disableWhatsNewNotifications: true,
+    disableTelemetry: true,
+    enableCrashReports: false,
+  },
+  stories: ['../components/**/*.(stories|story).@(js|jsx|ts|tsx)'],
+  addons: ['storybook-dark-mode'],
   framework: {
-    name: '@storybook/react-vite',
+    name: '@storybook/nextjs',
     options: {},
   },
 };
-
 export default config;

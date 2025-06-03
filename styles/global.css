@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #E63B7A;
+  font-weight: 700;
+}

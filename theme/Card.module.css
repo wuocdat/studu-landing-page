@@ -1,0 +1,5 @@
+.root {
+  &[data-with-border='true'] {
+    border: 1px solid #0A033C;
+  }
+}

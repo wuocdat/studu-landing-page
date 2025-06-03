@@ -1,0 +1,8 @@
+.root {
+  text-decoration-thickness: 0.5px;
+
+  &[data-variant='small'] {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

@@ -1,5 +1,0 @@
-.wrapper {
-    height: calc(100vh - 80px);
-    background-size: cover;
-    background-image: url(/public/svg/login_bg.svg);
-}

@@ -1,0 +1,12 @@
+.root {
+
+  &[data-variant='big'] {
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  &[data-variant='subtitle'] {
+    font-weight: 300;
+    font-style: italic;
+  }
+}

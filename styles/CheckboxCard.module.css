@@ -1,0 +1,21 @@
+.root {
+  position: relative;
+  padding: var(--mantine-spacing-md);
+  transition: border-color 150ms ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 16px;
+
+  &[data-checked] {
+    border-color: var(--mantine-primary-color-filled);
+  }
+
+  @mixin hover {
+    @mixin light {
+      background-color: var(--mantine-color-gray-2);
+    }
+
+    @mixin dark {
+      background-color: var(--mantine-color-dark-6);
+    }
+  }
+}

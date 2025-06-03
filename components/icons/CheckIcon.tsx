@@ -1,0 +1,28 @@
+import * as React from 'react';
+import { SVGProps } from 'react';
+
+const CheckIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    width={24}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <path fill="url(#a)" d="M0 0h24v24H0z" />
+    <defs>
+      <pattern id="a" width={1} height={1} patternContentUnits="objectBoundingBox">
+        <use xlinkHref="#b" transform="matrix(.00747 0 0 .00747 -.162 -.2)" />
+      </pattern>
+      <image
+        xlinkHref="data:image/png;base64,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"
+        id="b"
+        width={188}
+        height={182}
+        preserveAspectRatio="none"
+      />
+    </defs>
+  </svg>
+);
+export default CheckIcon;
