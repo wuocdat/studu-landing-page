@@ -1,0 +1,7 @@
+.root {
+  &[data-size='sm'] {
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

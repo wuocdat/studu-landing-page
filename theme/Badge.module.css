@@ -1,8 +1,0 @@
-.root {
-  &[data-variant='outline'] {
-    &:hover {
-      background-color: #E63B7A;
-      color: white;
-    }
-  }
-}

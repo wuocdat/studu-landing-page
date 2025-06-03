@@ -1,16 +1,11 @@
-import { AnchorVariant, ButtonVariant, MantineSize, TextVariant, TitleOrder } from '@mantine/core';
+import { AnchorVariant, DefaultMantineColor, MantineColorsTuple } from '@mantine/core';
 
-type ExtendedTextVariant = TextVariant | 'big';
-type ExtendedButtonVariant = ButtonVariant | 'hover';
-type ExtendedAnchorVariant = AnchorVariant | 'small';
+type ExtendedCustomColors = 'hot_pink' | DefaultMantineColor;
+type ExtendedAnchorVariant = 'dark' | AnchorVariant;
 
 declare module '@mantine/core' {
-  export interface TextProps {
-    variant?: ExtendedTextVariant;
-  }
-
-  export interface ButtonProps {
-    variant?: ExtendedButtonVariant;
+  export interface MantineThemeColorsOverride {
+    colors: Record<ExtendedCustomColors, MantineColorsTuple>;
   }
 
   export interface AnchorProps {

@@ -1,8 +1,0 @@
-.root {
-  font-size: 20px;
-
-  &[data-variant='big'] {
-    font-size: 48px;
-    font-weight: 800;
-  }
-}

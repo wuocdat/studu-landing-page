@@ -1,6 +1,0 @@
-.root {
-  &[data-variant='small'] {
-    font-size: 18px;
-    font-weight: 700;
-  }
-}

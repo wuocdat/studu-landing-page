@@ -1,0 +1,19 @@
+{
+  "i18n-ally.localesPaths": [
+    "src/locales/lang",
+  ],
+  "i18n-ally.sourceLanguage": "vi",
+  "i18n-ally.keystyle": "flat",
+  "i18n-ally.extract.ignoredByFiles": {
+    "src/pages/auth/LoginSelection.tsx": [
+      "calc(100vh - 200px)"
+    ]
+  },
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "node_modules/@mantine/core/styles.css"
+  ]
+}
